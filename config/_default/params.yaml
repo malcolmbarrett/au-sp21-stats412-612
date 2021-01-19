@@ -104,7 +104,6 @@ instructor:
   url: "https://www.malco.io"
   twitter: malco_barrett
   github: malcolmbarrett
-  office: ~
   contact_policy: >-
     E-mail is the best way to get in contact with me. I will try to respond to all course-related e-mails within 48 hours.
   appointment_url: ~
@@ -112,7 +111,7 @@ instructor:
 course:
   number: "STAT 412/612"
   semester: "Spring 2021"
-  days: "Tuesday"
+  days: "Tuesdays"
   time: "5:30 ET"
   dates: "January 19–April 27, 2021"
   github: "malcolmbarrett/au-sp21-stats412-612"
