@@ -1,0 +1,23 @@
+---
+title: "Schedule"
+slug: schedule
+---
+
+Here's your roadmap for the semester!
+
+| Week | Subject                    |
+|------|----------------------------|
+| 1    | Introduction               |
+| 2    | Import data                |
+| 3    | Transform data             |
+| 4    | Visualize data             |
+| 5    | **Assignment 1**           |
+| 6    | Tidy data                  |
+| 7    | **Assignment 2**           |
+| 8    | Join data                  |
+| 9    | Write functions            |
+| 10   | Iterate                    |
+| 11   | Reproducible research in R |
+| 12   | **Assignment 3**           |
+| 13   | Code Pipelines             |
+| 14   | **Final project**          |

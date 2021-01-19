@@ -1,0 +1,14 @@
+main:
+  - name: Schedule
+    url: /schedule/
+    weight: 2
+  - name: Content
+    url: /content/
+    weight: 3
+    weight: 6
+
+content:
+  - name: Overview
+    weight: 1
+  - name: Course content
+    weight: 2
