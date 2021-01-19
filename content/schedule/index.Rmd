@@ -5,19 +5,19 @@ slug: schedule
 
 Here's your roadmap for the semester!
 
-| Week | Subject                    |
-|------|----------------------------|
-| 1    | Introduction               |
-| 2    | Import data                |
-| 3    | Transform data             |
-| 4    | Visualize data             |
-| 5    | **Assignment 1**           |
-| 6    | Tidy data                  |
-| 7    | **Assignment 2**           |
-| 8    | Join data                  |
-| 9    | Write functions            |
-| 10   | Iterate                    |
-| 11   | Reproducible research in R |
-| 12   | **Assignment 3**           |
-| 13   | Code Pipelines             |
-| 14   | **Final project**          |
+| Week | Subject                    | Code topics         |
+|------|----------------------------|---------------------|
+| 1    | Introduction               | R and RStudio       |
+| 2    | Import data                | readr and haven     |
+| 3    | Transform data             | dplyr               |
+| 4    | Visualize data             | ggplot2             |
+| 5    | **Assignment 1**           |                     |
+| 6    | Tidy data                  | tidyr               |
+| 7    | **Assignment 2**           |                     |
+| 8    | Join data                  | dplyr               |
+| 9    | Write functions            | Base R              |
+| 10   | Iterate                    | purrr               |
+| 11   | Reproducible research in R | R Markdown and renv |
+| 12   | **Assignment 3**           |                     |
+| 13   | Code Pipelines             | targets             |
+| 14   | **Final project**          |                     |
