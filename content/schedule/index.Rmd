@@ -4,6 +4,7 @@ slug: schedule
 ---
 
 Here's your roadmap for the semester!
+Check the [content](/content) page often for details on the week's tasks
 
 | Week | Subject                    | Code topics         |
 |------|----------------------------|---------------------|

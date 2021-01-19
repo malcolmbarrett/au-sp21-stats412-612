@@ -1,6 +1,6 @@
 ---
-title: "Regression and inference"
-linktitle: "2: Regression and inference"
+title: "Importing data"
+linktitle: "2: Importing data"
 date: "2021-01-19"
 start_date: "2021-01-19"
 end_date: "2021-01-22"
