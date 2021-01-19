@@ -20,7 +20,7 @@ You've got a lot to do this week! Make sure you get started early.
 - <i class="fas fa-desktop"></i> Install R and RStudio ([see below](https://au-sp21-stats412-612.netlify.app/content/01-content/#install-the-software-you-need)).
 - <i class="fas fa-cloud"></i> Create an [RStudio Cloud](https://rstudio.cloud/) account. A free account is fine!
 - <i class="fas fa-book"></i> [STATS 545: R Basics](https://stat545.com/r-basics.html)
-- <i class="fas fa-external-link-square-alt"></i> [RStudio Primers: Programming basics](https://rstudio.cloud/learn/primers/1.2)
+- <i class="fas fa-desktop"></i> [RStudio Primers: Programming basics](https://rstudio.cloud/learn/primers/1.2)
 - <i class="fas fa-book"></i> [R For Data Science: Data Import](https://r4ds.had.co.nz/data-import.html)
 
 ## Install the software you need
