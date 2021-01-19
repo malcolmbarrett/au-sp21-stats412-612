@@ -10,8 +10,6 @@ menu:
     weight: 2
 type: docs
 toc: true
-bibliography: "../../static/bib/references.bib"
-csl: "../../static/bib/chicago-fullnote-bibliography-no-bib.csl"
 slides: "02-slides"
 draft: true
 ---

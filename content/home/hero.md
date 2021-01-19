@@ -20,7 +20,7 @@ design:
     text_color_light: true
 
 cta_note:
-  label: STAT 412/612: Statistical Programming in R • Spring 2021<br>American University
+  label: "STAT 412/612: Statistical Programming in R • Spring 2021<br>American University"
 ---
 
 **Learn the basics of programming using the open source statistical program R, an interactive programming language for data science.**

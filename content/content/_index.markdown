@@ -8,10 +8,10 @@ type: docs
 weight: 1
 ---
 
-Each class session has a set of required readings that you should complete ***before*** watching the lecture. 
+Most classes will have three sets of items to work through:
 
-Every class session also has a YouTube playlist of short recorded videos for each of the lecture sections. The lecture slides are special HTML files made with the R package [**xaringan**](https://bookdown.org/yihui/rmarkdown/xaringan.html) (R can do so much!). On each class session page you'll see buttons for opening the presentation in a new tab or for downloading a PDF of the slides in case you want to print them or store them on your computer:
+1. <i class="fab fa-youtube"></i> Lecture by me with corresponding exercises. These will usually be a series of YouTube videos and a corresponding set of exercises that you'll download with the course package. (You do not need to submit your solutions the exercises for these videos, but it is critical you complete them.)
+2. <i class="fas fa-book"></i> Readings from *R for Data Science* and other sources, all freely available online. You'll need these for in-class material!
+3. <i class="fas fa-desktop"></i> Exercises or assignments to do in class. Exercises will generally be from *R for Data Science* and done in break-out rooms in small groups. Assignments will be more involved. You can do them individually or with a group. 
 
-<p style="text-align:center;"><span class="btn btn-primary btn-lg"><i class="fas fa-external-link-alt"></i> View all slides in new window</span> <span class="btn btn-primary btn-lg"><i class="far fa-file-pdf"></i> Download PDF of all slides</span></p>
-
-The slides are also embedded on each page. You can click in the slides and navigate through them with <kbd>←</kbd> and <kbd>→</kbd>. If you type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) while viewing the slides you can see a list of slide-specific commands (like <kbd>f</kbd> for fullscreen or <kbd>p</kbd> for presenter mode if you want to see my notes).
+**Turn in all assignments and in-class exercises on Blackboard.**
