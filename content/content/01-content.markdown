@@ -33,10 +33,6 @@ Check out [STAT 545: Install](https://stat545.com/install.html) for more guidanc
 2. [Install the latest version of RStudio](https://rstudio.com/products/rstudio/download/#download)
 3. Follow the instructions below to install all the packages we will be using in the course
 
-To install the materials and all the needed packages for the course on your personal computer, follow these steps:
-
-Be sure you have the latest versions of R and RStudio installed and that you have a stable internet connection (if you get an error message while completing the next steps, it may be because you are running outdated versions).
-
 Open RStudio and run this code in the console. **NOTE**: R may ask you to install source packages instead of binaries. (`Do you want to install from sources the packages which need compilation? (Yes/no/cancel)`. **Say "no" for now.** We'll circle back to what this means later.
 
 ```r
