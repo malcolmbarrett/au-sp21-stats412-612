@@ -46,6 +46,8 @@ remotes::install_github("malcolmbarrett/au.rcourse")
 
 This will take some time as many packages will be downloaded. When complete, you'll see `DONE (au.rcourse)` displayed in the console.
 
+**NOTE**: You may encounter an error trying to install certain packages that require additional software. A common source of such errors is needing Rtools on Windows or xcode on Mac. Read more here on how to set these up on your local computer: https://r-pkgs.org/setup.html#setup-tools
+
 ## Set up an RStudio Cloud account
 
 We'll also be using [RStudio Cloud](https://rstudio.cloud/) (primarily to have a backup computing environment in case you have trouble installing locally). Sign up for a free account.
