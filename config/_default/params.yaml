@@ -38,7 +38,7 @@ font_size: "L"
 site_type: "Course"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description: "Use modern statistical and data scientific tools to measure causal effects and evaluate public policy"
+description: "Learn the basics of programming using the open source statistical program R, an interactive programming language for data science"
 
 
 ############################
