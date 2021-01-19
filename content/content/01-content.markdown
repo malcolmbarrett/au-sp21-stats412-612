@@ -23,6 +23,9 @@ You've got a lot to do this week! Make sure you get started early.
 - <i class="fas fa-desktop"></i> [RStudio Primers: Programming basics](https://rstudio.cloud/learn/primers/1.2)
 - <i class="fas fa-book"></i> [R For Data Science: Data Import](https://r4ds.had.co.nz/data-import.html)
 
+## Bonus material
+- <i class="fas fa-external-link-square-alt"></i> [Data Science as an Atomic Habit](https://malco.io/2021/01/04/data-science-as-an-atomic-habit/). Our habits rarely result in linear growth. Read this post to understand what learning data science really looks like and how to maximize your habits to get you there.
+
 ## Install the software you need
 
 For this course, we need to install R, RStudio, and the packages we'll be using. This is a three step process!
@@ -46,6 +49,3 @@ This will take some time as many packages will be downloaded. When complete, you
 ## Set up an RStudio Cloud account
 
 We'll also be using [RStudio Cloud](https://rstudio.cloud/) (primarily to have a backup computing environment in case you have trouble installing locally). Sign up for a free account.
-
-## Bonus material
-- <i class="fas fa-external-link-square-alt"></i> [Data Science as an Atomic Habit](https://malco.io/2021/01/04/data-science-as-an-atomic-habit/). Our habits rarely result in linear growth. Read this post to understand what learning data science really looks like and how to maximize your habits to get you there.
