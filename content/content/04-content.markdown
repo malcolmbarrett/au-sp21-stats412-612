@@ -1,16 +1,16 @@
 ---
-title: "Importing data"
-linktitle: "2: Importing data"
-date: "2021-01-26"
-start_date: "2021-01-26"
-end_date: "2021-02-01"
+title: "Visualizing data"
+linktitle: "4: Visualizing data"
+date: "2021-02-09"
+start_date: "2021-02-09"
+end_date: "2021-02-15"
 menu:
   content:
     parent: Course content
-    weight: 2
+    weight: 4
 type: docs
 toc: true
-slides: "02-slides"
+slides: "04-slides"
 draft: true
 ---
 

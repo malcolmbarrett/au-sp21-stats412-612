@@ -1,9 +1,9 @@
 ---
 title: "Transforming data"
 linktitle: "3: Transforming data"
-date: "2021-01-19"
-start_date: "2021-01-19"
-end_date: "2021-01-22"
+date: "2021-02-02"
+start_date: "2021-02-02"
+end_date: "2021-02-08"
 menu:
   content:
     parent: Course content
