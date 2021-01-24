@@ -1,6 +1,6 @@
 ---
 title: "Introduction to R and RStudio"
-linktitle: "1: Introduction to R and RStudio"
+linktitle: "00: Introduction to R and RStudio"
 date: "2021-01-19"
 start_date: "2021-01-19"
 end_date: "2021-01-25"

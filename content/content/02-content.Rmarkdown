@@ -1,6 +1,6 @@
 ---
 title: "Importing data"
-linktitle: "2: Importing data"
+linktitle: "01: Importing data"
 date: "2021-01-26"
 start_date: "2021-01-26"
 end_date: "2021-02-01"

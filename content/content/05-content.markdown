@@ -1,6 +1,6 @@
 ---
 title: "Assignment 1"
-linktitle: "5: Assignment 1"
+linktitle: "05: Assignment 1"
 date: "2021-02-16"
 start_date: "2021-02-16"
 end_date: "2021-02-22"

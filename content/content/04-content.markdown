@@ -1,6 +1,6 @@
 ---
 title: "Visualizing data"
-linktitle: "4: Visualizing data"
+linktitle: "03-04: Visualizing data"
 date: "2021-02-09"
 start_date: "2021-02-09"
 end_date: "2021-02-15"
