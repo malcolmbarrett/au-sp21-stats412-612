@@ -18,7 +18,7 @@ draft: true
 
 *Finish this material before class on February 2nd*
 
-- <i class="fab fa-youtube"></i> Lecture and exercises ([see below](#next-weeks-lecture))
+- <i class="fab fa-youtube"></i> Lecture and exercises: Transforming data ([see below](#next-weeks-lecture))
 - <i class="fas fa-book"></i> [R For Data Science: Data transformation](https://r4ds.had.co.nz/transform.html)
 - <i class="fas fa-book"></i> [What They Forgot to Teach You About R: Saving source and blank slates](https://rstats.wtf/save-source.html)
 - <i class="fas fa-book"></i> [Tidyverse Style Guide: Files](https://style.tidyverse.org/files.html)
@@ -28,7 +28,7 @@ draft: true
 
 *Turn in on Blackboard before class on February 2nd*
 
-- <i class="fas fa-tasks"></i>  Exercises from [R For Data Science: Data Import](https://r4ds.had.co.nz/data-import.html)
+- <i class="fas fa-desktop"></i>  Exercises from [R For Data Science: Data Import](https://r4ds.had.co.nz/data-import.html)
 
 ## Bonus material
 - <i class="fas fa-external-link-square-alt"></i> [RStudio Primer: Work with Data](https://rstudio.cloud/learn/primers/2)
