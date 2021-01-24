@@ -1,6 +1,6 @@
 ---
-title: "Introduction to R and RStudio"
-linktitle: "00: Introduction to R and RStudio"
+title: "Week 1"
+linktitle: "Week 1"
 date: "2021-01-19"
 start_date: "2021-01-19"
 end_date: "2021-01-25"
@@ -12,9 +12,9 @@ type: docs
 toc: true
 ---
 
-## Tasks
+## Required content
 
-You've got a lot to do this week! Make sure you get started early.
+*Finish this material before class on January 26th*
 
 - <i class="fas fa-book"></i> [R For Data Science: Introduction](https://r4ds.had.co.nz/introduction.html)
 - <i class="fas fa-desktop"></i> Install R and RStudio ([see below](#install-the-software-you-need)).
