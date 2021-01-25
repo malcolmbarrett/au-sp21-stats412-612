@@ -58,14 +58,14 @@ au.rcourse::use_module("03-ggplot_basics")
 
 Videos for each section of the lecture are [available at this YouTube playlist](https://www.youtube.com/playlist?list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE).
 
-- [01 - Transforming Data](https://www.youtube.com/watch?v=B1a_AnogAuE&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
-- [02 - Transforming Data](https://www.youtube.com/watch?v=rewqX8KfxRg&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
-- [03 - Transforming Data](https://www.youtube.com/watch?v=QyOJ9sSbm38&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
-- [04 - Transforming Data](https://www.youtube.com/watch?v=SGwItNK-fM4&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
-- [05 - Transforming Data](https://www.youtube.com/watch?v=XAx6jDiTZJk&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
-- [06 - Transforming Data](https://www.youtube.com/watch?v=K_fDSRoYieU&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
-- [07 - Transforming Data](https://www.youtube.com/watch?v=U_e24jJwPnY&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
-- [08 - Transforming Data](https://www.youtube.com/watch?v=ThsrrJQerLI&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [01 - Visualizing data (the basics)](https://www.youtube.com/watch?v=B1a_AnogAuE&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [02 - Visualizing data (the basics)](https://www.youtube.com/watch?v=rewqX8KfxRg&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [03 - Visualizing data (the basics)](https://www.youtube.com/watch?v=QyOJ9sSbm38&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [04 - Visualizing data (the basics)](https://www.youtube.com/watch?v=SGwItNK-fM4&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [05 - Visualizing data (the basics)](https://www.youtube.com/watch?v=XAx6jDiTZJk&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [06 - Visualizing data (the basics)](https://www.youtube.com/watch?v=K_fDSRoYieU&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [07 - Visualizing data (the basics)](https://www.youtube.com/watch?v=U_e24jJwPnY&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [08 - Visualizing data (the basics)](https://www.youtube.com/watch?v=ThsrrJQerLI&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
 
 You can also watch the playlist (and skip around to different sections) here:
 
@@ -95,14 +95,14 @@ au.rcourse::use_module("04-ggplot_customizing")
 
 Videos for each section of the lecture are [available at this YouTube playlist](https://www.youtube.com/playlist?list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE).
 
-- [01 - Transforming Data](https://www.youtube.com/watch?v=B1a_AnogAuE&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
-- [02 - Transforming Data](https://www.youtube.com/watch?v=rewqX8KfxRg&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
-- [03 - Transforming Data](https://www.youtube.com/watch?v=QyOJ9sSbm38&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
-- [04 - Transforming Data](https://www.youtube.com/watch?v=SGwItNK-fM4&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
-- [05 - Transforming Data](https://www.youtube.com/watch?v=XAx6jDiTZJk&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
-- [06 - Transforming Data](https://www.youtube.com/watch?v=K_fDSRoYieU&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
-- [07 - Transforming Data](https://www.youtube.com/watch?v=U_e24jJwPnY&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
-- [08 - Transforming Data](https://www.youtube.com/watch?v=ThsrrJQerLI&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [01 - Visualizing data (customization)](https://www.youtube.com/watch?v=B1a_AnogAuE&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [02 - Visualizing data (customization)](https://www.youtube.com/watch?v=rewqX8KfxRg&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [03 - Visualizing data (customization)](https://www.youtube.com/watch?v=QyOJ9sSbm38&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [04 - Visualizing data (customization)](https://www.youtube.com/watch?v=SGwItNK-fM4&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [05 - Visualizing data (customization)](https://www.youtube.com/watch?v=XAx6jDiTZJk&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [06 - Visualizing data (customization)](https://www.youtube.com/watch?v=K_fDSRoYieU&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [07 - Visualizing data (customization)](https://www.youtube.com/watch?v=U_e24jJwPnY&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [08 - Visualizing data (customization)](https://www.youtube.com/watch?v=ThsrrJQerLI&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
 
 You can also watch the playlist (and skip around to different sections) here:
 

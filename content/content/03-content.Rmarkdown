@@ -22,14 +22,14 @@ playlist_id_gg1 <- "PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE"
 
 video_details_gg1 <- tibble::tribble(
   ~youtube_id,   ~title,
-  "B1a_AnogAuE", "01 - Transforming Data",
-  "rewqX8KfxRg", "02 - Transforming Data",
-  "QyOJ9sSbm38", "03 - Transforming Data",
-  "SGwItNK-fM4", "04 - Transforming Data",
-  "XAx6jDiTZJk", "05 - Transforming Data",
-  "K_fDSRoYieU", "06 - Transforming Data",
-  "U_e24jJwPnY", "07 - Transforming Data",
-  "ThsrrJQerLI", "08 - Transforming Data",
+  "B1a_AnogAuE", "01 - Visualizing data (the basics)",
+  "rewqX8KfxRg", "02 - Visualizing data (the basics)",
+  "QyOJ9sSbm38", "03 - Visualizing data (the basics)",
+  "SGwItNK-fM4", "04 - Visualizing data (the basics)",
+  "XAx6jDiTZJk", "05 - Visualizing data (the basics)",
+  "K_fDSRoYieU", "06 - Visualizing data (the basics)",
+  "U_e24jJwPnY", "07 - Visualizing data (the basics)",
+  "ThsrrJQerLI", "08 - Visualizing data (the basics)",
 )
 
 # second lecture
@@ -37,14 +37,14 @@ playlist_id_gg2 <- "PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE"
 
 video_details_gg2 <- tibble::tribble(
   ~youtube_id,   ~title,
-  "B1a_AnogAuE", "01 - Transforming Data",
-  "rewqX8KfxRg", "02 - Transforming Data",
-  "QyOJ9sSbm38", "03 - Transforming Data",
-  "SGwItNK-fM4", "04 - Transforming Data",
-  "XAx6jDiTZJk", "05 - Transforming Data",
-  "K_fDSRoYieU", "06 - Transforming Data",
-  "U_e24jJwPnY", "07 - Transforming Data",
-  "ThsrrJQerLI", "08 - Transforming Data",
+  "B1a_AnogAuE", "01 - Visualizing data (customization)",
+  "rewqX8KfxRg", "02 - Visualizing data (customization)",
+  "QyOJ9sSbm38", "03 - Visualizing data (customization)",
+  "SGwItNK-fM4", "04 - Visualizing data (customization)",
+  "XAx6jDiTZJk", "05 - Visualizing data (customization)",
+  "K_fDSRoYieU", "06 - Visualizing data (customization)",
+  "U_e24jJwPnY", "07 - Visualizing data (customization)",
+  "ThsrrJQerLI", "08 - Visualizing data (customization)",
 )
 ```
 
