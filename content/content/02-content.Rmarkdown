@@ -37,7 +37,7 @@ video_details <- tibble::tribble(
 
 *Finish this material before class on February 2nd*
 
-- <i class="fab fa-youtube"></i> Lecture and exercises: Transforming data ([see below](#next-weeks-lecture))
+- <i class="fab fa-youtube"></i> Lecture and exercises: Transforming data ([see below](#lecture-transforming-data-on-your-own))
 - <i class="fas fa-book"></i> [R For Data Science: Data transformation](https://r4ds.had.co.nz/transform.html)
 - <i class="fas fa-book"></i> [What They Forgot to Teach You About R: Saving source and blank slates](https://rstats.wtf/save-source.html)
 - <i class="fas fa-book"></i> [Tidyverse Style Guide: Files](https://style.tidyverse.org/files.html)
