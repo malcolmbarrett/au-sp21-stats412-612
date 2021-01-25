@@ -77,7 +77,7 @@ au.rcourse::use_module("02-dplyr_5verbs")
 Videos for each section of the lecture are [available at this YouTube playlist](https://www.youtube.com/playlist?list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE).
 
 - [01 - Transforming Data](https://www.youtube.com/watch?v=B1a_AnogAuE&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
-- [02 - Transforming Data](https://www.youtube.com/watch?v=FskIPAHhcas&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [02 - Transforming Data](https://www.youtube.com/watch?v=rewqX8KfxRg&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
 - [03 - Transforming Data](https://www.youtube.com/watch?v=QyOJ9sSbm38&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
 - [04 - Transforming Data](https://www.youtube.com/watch?v=SGwItNK-fM4&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
 - [05 - Transforming Data](https://www.youtube.com/watch?v=XAx6jDiTZJk&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)

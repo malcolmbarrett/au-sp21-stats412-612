@@ -22,7 +22,7 @@ playlist_id <- "PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE"
 video_details <- tibble::tribble(
   ~youtube_id,   ~title,
   "B1a_AnogAuE", "01 - Transforming Data",
-  "FskIPAHhcas", "02 - Transforming Data",
+  "rewqX8KfxRg", "02 - Transforming Data",
   "QyOJ9sSbm38", "03 - Transforming Data",
   "SGwItNK-fM4", "04 - Transforming Data",
   "XAx6jDiTZJk", "05 - Transforming Data",
