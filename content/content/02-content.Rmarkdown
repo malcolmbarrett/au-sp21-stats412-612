@@ -14,6 +14,25 @@ slides: "02-slides"
 draft: true
 ---
 
+```{r, echo=FALSE}
+source(here::here("R", "youtube-playlist.R"))
+
+playlist_id <- "PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE"
+
+video_details <- tibble::tribble(
+  ~youtube_id,   ~title,
+  "B1a_AnogAuE", "01 - Transforming Data",
+  "FskIPAHhcas", "02 - Transforming Data",
+  "QyOJ9sSbm38", "03 - Transforming Data",
+  "SGwItNK-fM4", "04 - Transforming Data",
+  "XAx6jDiTZJk", "05 - Transforming Data",
+  "K_fDSRoYieU", "06 - Transforming Data",
+  "U_e24jJwPnY", "07 - Transforming Data",
+  "QPrUj822g-U", "08 - Transforming Data",
+)
+```
+
+
 ## Required content
 
 *Finish this material before class on February 2nd*
@@ -35,7 +54,9 @@ draft: true
 - <i class="fas fa-external-link-square-alt"></i> [STAT 545: Introduction to dplyr](https://stat545.com/dplyr-intro.html)
 - <i class="fas fa-external-link-square-alt"></i> [STAT 545: Single table dplyr functions](https://stat545.com/dplyr-single.html)
 
-## This week's lecture exercises (in class)
+## Lecture: January 26th (in class)
+
+*We'll do these in class on Jan. 26*
 
 **Reminder**: You do *not* need to turn in the "Your Turn" exercises in the lecture
 
@@ -49,9 +70,26 @@ au.rcourse::use_module("01-reading_data")
 
 **Reminder**: You need to save a permanent copy or download the project to keep your exercises
 
-## Next week's lecture
+## Lecture: February 2nd
 
-* exercises
-* videos
+### Exercises
+
+*Work through these videos and exercises on your own prior to class on **Feb. 2***
+
+<i class="fas fa-desktop"></i> **Option 1**: Download the material locally
+
+```{r, eval = FALSE}
+au.rcourse::use_module("02-dplyr_5verbs")
+```
+
+<i class="fas fa-cloud"></i> **Option 2**: Complete the exercises at RStudio Cloud: https://rstudio.cloud/project/2105917
+
+**Reminder**: You need to save a permanent copy or download the project to keep your exercises
+
+### Videos
+
+```{r show-youtube-list, echo=FALSE, results="asis"}
+youtube_list(video_details, playlist_id)
+```
 
 

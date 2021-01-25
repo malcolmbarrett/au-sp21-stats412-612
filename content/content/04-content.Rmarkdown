@@ -15,7 +15,6 @@ draft: true
 ---
 
 ```{r slides-videos, echo=FALSE, include=FALSE}
-source(here::here("R", "slide-tabs.R"))
 source(here::here("R", "youtube-playlist.R"))
 
 playlist_id <- "PLS6tnpTr39sERjvBbJGr9mpqvtiLVPzd4"

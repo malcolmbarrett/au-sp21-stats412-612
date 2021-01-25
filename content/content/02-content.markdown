@@ -14,6 +14,9 @@ slides: "02-slides"
 draft: true
 ---
 
+
+
+
 ## Required content
 
 *Finish this material before class on February 2nd*
@@ -35,7 +38,9 @@ draft: true
 - <i class="fas fa-external-link-square-alt"></i> [STAT 545: Introduction to dplyr](https://stat545.com/dplyr-intro.html)
 - <i class="fas fa-external-link-square-alt"></i> [STAT 545: Single table dplyr functions](https://stat545.com/dplyr-single.html)
 
-## This week's lecture exercises (in class)
+## Lecture: January 26th (in class)
+
+*We'll do these in class on Jan. 26*
 
 **Reminder**: You do *not* need to turn in the "Your Turn" exercises in the lecture
 
@@ -50,9 +55,40 @@ au.rcourse::use_module("01-reading_data")
 
 **Reminder**: You need to save a permanent copy or download the project to keep your exercises
 
-## Next week's lecture
+## Lecture: February 2nd
 
-* exercises
-* videos
+### Exercises
+
+*Work through these videos and exercises on your own prior to class on **Feb. 2***
+
+<i class="fas fa-desktop"></i> **Option 1**: Download the material locally
+
+
+```r
+au.rcourse::use_module("02-dplyr_5verbs")
+```
+
+<i class="fas fa-cloud"></i> **Option 2**: Complete the exercises at RStudio Cloud: https://rstudio.cloud/project/2105917
+
+**Reminder**: You need to save a permanent copy or download the project to keep your exercises
+
+### Videos
+
+Videos for each section of the lecture are [available at this YouTube playlist](https://www.youtube.com/playlist?list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE).
+
+- [01 - Transforming Data](https://www.youtube.com/watch?v=B1a_AnogAuE&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [02 - Transforming Data](https://www.youtube.com/watch?v=FskIPAHhcas&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [03 - Transforming Data](https://www.youtube.com/watch?v=QyOJ9sSbm38&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [04 - Transforming Data](https://www.youtube.com/watch?v=SGwItNK-fM4&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [05 - Transforming Data](https://www.youtube.com/watch?v=XAx6jDiTZJk&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [06 - Transforming Data](https://www.youtube.com/watch?v=K_fDSRoYieU&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [07 - Transforming Data](https://www.youtube.com/watch?v=U_e24jJwPnY&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [08 - Transforming Data](https://www.youtube.com/watch?v=QPrUj822g-U&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+
+You can also watch the playlist (and skip around to different sections) here:
+
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 
