@@ -17,9 +17,25 @@ draft: true
 ```{r, echo=FALSE}
 source(here::here("R", "youtube-playlist.R"))
 
-playlist_id <- "PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE"
+# first lecture
+playlist_id_gg1 <- "PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE"
 
-video_details <- tibble::tribble(
+video_details_gg1 <- tibble::tribble(
+  ~youtube_id,   ~title,
+  "B1a_AnogAuE", "01 - Transforming Data",
+  "rewqX8KfxRg", "02 - Transforming Data",
+  "QyOJ9sSbm38", "03 - Transforming Data",
+  "SGwItNK-fM4", "04 - Transforming Data",
+  "XAx6jDiTZJk", "05 - Transforming Data",
+  "K_fDSRoYieU", "06 - Transforming Data",
+  "U_e24jJwPnY", "07 - Transforming Data",
+  "ThsrrJQerLI", "08 - Transforming Data",
+)
+
+# second lecture
+playlist_id_gg2 <- "PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE"
+
+video_details_gg2 <- tibble::tribble(
   ~youtube_id,   ~title,
   "B1a_AnogAuE", "01 - Transforming Data",
   "rewqX8KfxRg", "02 - Transforming Data",
@@ -65,14 +81,14 @@ video_details <- tibble::tribble(
 au.rcourse::use_module("03-ggplot_basics")
 ```
 
-<i class="fas fa-cloud"></i> **Option 2**: Complete the exercises at RStudio Cloud: https://rstudio.cloud/project/
+<i class="fas fa-cloud"></i> **Option 2**: Complete the exercises at RStudio Cloud: https://rstudio.cloud/project/2107273
 
 **Reminder**: You need to save a permanent copy or download the project to keep your exercises
 
 ### Videos
 
 ```{r show-youtube-list, echo=FALSE, results="asis"}
-youtube_list(video_details, playlist_id)
+youtube_list(video_details_gg1, playlist_id_gg1)
 ```
 
 
@@ -88,12 +104,12 @@ youtube_list(video_details, playlist_id)
 au.rcourse::use_module("04-ggplot_customizing")
 ```
 
-<i class="fas fa-cloud"></i> **Option 2**: Complete the exercises at RStudio Cloud: https://rstudio.cloud/project/
+<i class="fas fa-cloud"></i> **Option 2**: Complete the exercises at RStudio Cloud: https://rstudio.cloud/project/2107290
 
 **Reminder**: You need to save a permanent copy or download the project to keep your exercises
 
 ### Videos
 
 ```{r show-youtube-list2, echo=FALSE, results="asis"}
-youtube_list(video_details, playlist_id)
+youtube_list(video_details_gg2, playlist_id_gg2)
 ```

@@ -50,7 +50,7 @@ draft: true
 au.rcourse::use_module("03-ggplot_basics")
 ```
 
-<i class="fas fa-cloud"></i> **Option 2**: Complete the exercises at RStudio Cloud: https://rstudio.cloud/project/
+<i class="fas fa-cloud"></i> **Option 2**: Complete the exercises at RStudio Cloud: https://rstudio.cloud/project/2107273
 
 **Reminder**: You need to save a permanent copy or download the project to keep your exercises
 
@@ -87,7 +87,7 @@ You can also watch the playlist (and skip around to different sections) here:
 au.rcourse::use_module("04-ggplot_customizing")
 ```
 
-<i class="fas fa-cloud"></i> **Option 2**: Complete the exercises at RStudio Cloud: https://rstudio.cloud/project/
+<i class="fas fa-cloud"></i> **Option 2**: Complete the exercises at RStudio Cloud: https://rstudio.cloud/project/2107290
 
 **Reminder**: You need to save a permanent copy or download the project to keep your exercises
 
