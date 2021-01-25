@@ -28,7 +28,7 @@ video_details <- tibble::tribble(
   "XAx6jDiTZJk", "05 - Transforming Data",
   "K_fDSRoYieU", "06 - Transforming Data",
   "U_e24jJwPnY", "07 - Transforming Data",
-  "Yw8nQbB3jHg", "08 - Transforming Data",
+  "ThsrrJQerLI", "08 - Transforming Data",
 )
 ```
 

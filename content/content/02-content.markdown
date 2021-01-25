@@ -83,7 +83,7 @@ Videos for each section of the lecture are [available at this YouTube playlist](
 - [05 - Transforming Data](https://www.youtube.com/watch?v=XAx6jDiTZJk&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
 - [06 - Transforming Data](https://www.youtube.com/watch?v=K_fDSRoYieU&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
 - [07 - Transforming Data](https://www.youtube.com/watch?v=U_e24jJwPnY&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
-- [08 - Transforming Data](https://www.youtube.com/watch?v=Yw8nQbB3jHg&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [08 - Transforming Data](https://www.youtube.com/watch?v=ThsrrJQerLI&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
 
 You can also watch the playlist (and skip around to different sections) here:
 
