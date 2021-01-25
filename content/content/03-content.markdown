@@ -1,6 +1,6 @@
 ---
-title: "Transforming data"
-linktitle: "02: Transforming data"
+title: "Week 3"
+linktitle: "Week 3"
 date: "2021-02-02"
 start_date: "2021-02-02"
 end_date: "2021-02-08"
@@ -16,84 +16,96 @@ draft: true
 
 
 
-## Readings
 
-- <i class="fas fa-book"></i> Chapter 2 in *Mastering 'Metrics* [@AngristPischke:2015]
-- <i class="fas fa-book"></i> [Chapter 2, "Probability and Regression Review"](https://mixtape.scunning.com/ch1.html) in *Causal Inference: The Mixtape* (this is long; skim through this as a review) [@mixtape]
+## Required content
 
-## Recommended readings
+*Finish this material before class on February 9th*
 
-Look through your notes on regression from your last stats class. Also, you can skim through these resources:
+- <i class="fab fa-youtube"></i> Lecture and exercises: Visualizing data (the basics) ([see below](#lecture-visualizing-data-the-basics))
+- <i class="fab fa-youtube"></i> Lecture and exercises: Visualizing data (customization) ([see below](#lecture-visualizing-data-customization))
+- <i class="fas fa-book"></i> [R For Data Science: Data visualisation](https://r4ds.had.co.nz/data-visualisation.html)
+- <i class="fas fa-book"></i> [R For Data Science: Workflow basics](https://r4ds.had.co.nz/workflow-basics.html)
+- <i class="fas fa-book"></i> [Tidyverse Style Guide: ggplot2](https://style.tidyverse.org/ggplot2.html)
 
-- <i class="fas fa-book"></i> [6.1–6.4 in *ModernDive*](https://moderndive.com/6-regression.html) [@IsmayKim:2018]
-- <i class="fas fa-book"></i> [7.1–7.4 in *ModernDive*](https://moderndive.com/7-multiple-regression.html) [@IsmayKim:2018]
-- <i class="fas fa-book"></i> 7.1–7.3 in *OpenIntro Statistics* [@DiezBarrCetinkaya-Rundel:2017]
-- <i class="fas fa-book"></i> 8.1 in *OpenIntro Statistics* [@DiezBarrCetinkaya-Rundel:2017]
+## What's due this week
 
-We'll review all this regression stuff in the videos, so *don't panic* if this all looks terrifying! Also, take advantage of the videos that accompany the *OpenIntro* chapters. And *also*, the *OpenIntro* chapters are heavier on the math—don't worry if you don't understand everything.
+*Turn in on Blackboard before class on February 9th*
 
+- <i class="fas fa-desktop"></i>  Exercises from [R For Data Science: Data transformation](https://r4ds.had.co.nz/transform.html)
 
-## Slides
+## Bonus material
+- <i class="fas fa-external-link-square-alt"></i> [RStudio Primer: Visualize Data](https://rstudio.cloud/learn/primers/3)
+- <i class="fas fa-external-link-square-alt"></i> [STAT 545: Graphics Overview (Chs 22-29)](https://stat545.com/graphics-overview.html)
 
-The slides for today's lesson are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.
+## Lecture: Visualizing data (the basics) 
 
-{{% slide-buttons %}}
+### Exercises
 
-<ul class="nav nav-tabs" id="slide-tabs" role="tablist">
-<li class="nav-item">
-<a class="nav-link active" id="introduction-tab" data-toggle="tab" href="#introduction" role="tab" aria-controls="introduction" aria-selected="true">Introduction</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" id="drawing-lines-tab" data-toggle="tab" href="#drawing-lines" role="tab" aria-controls="drawing-lines" aria-selected="false">Drawing lines</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" id="lines-greek-and-regression-tab" data-toggle="tab" href="#lines-greek-and-regression" role="tab" aria-controls="lines-greek-and-regression" aria-selected="false">Lines, Greek, and regression</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" id="null-worlds-and-statistical-significance-tab" data-toggle="tab" href="#null-worlds-and-statistical-significance" role="tab" aria-controls="null-worlds-and-statistical-significance" aria-selected="false">Null worlds and statistical significance</a>
-</li>
-</ul>
-<div class="tab-content" id="slide-tabs">
-<div class="tab-pane fade show active" id="introduction" role="tabpanel" aria-labelledby="introduction-tab">
-<div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="/slides/02-slides.html#1"></iframe>
-</div>
-</div>
-<div class="tab-pane fade" id="drawing-lines" role="tabpanel" aria-labelledby="drawing-lines-tab">
-<div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="/slides/02-slides.html#drawing-lines"></iframe>
-</div>
-</div>
-<div class="tab-pane fade" id="lines-greek-and-regression" role="tabpanel" aria-labelledby="lines-greek-and-regression-tab">
-<div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="/slides/02-slides.html#lines-greek-regression"></iframe>
-</div>
-</div>
-<div class="tab-pane fade" id="null-worlds-and-statistical-significance" role="tabpanel" aria-labelledby="null-worlds-and-statistical-significance-tab">
-<div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="/slides/02-slides.html#significance"></iframe>
-</div>
-</div>
-</div>
+*Work through these videos and exercises on your own prior to class on **Feb. 9***
 
-{{% div fyi %}}
-**Fun fact**: If you type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) while going through the slides, you can see a list of special slide-specific commands.
-{{% /div %}}
+<i class="fas fa-desktop"></i> **Option 1**: Download the material locally
 
 
-## Videos
+```r
+au.rcourse::use_module("03-ggplot_basics")
+```
 
-Videos for each section of the lecture are [available at this YouTube playlist](https://www.youtube.com/playlist?list=PLS6tnpTr39sERjvBbJGr9mpqvtiLVPzd4).
+<i class="fas fa-cloud"></i> **Option 2**: Complete the exercises at RStudio Cloud: https://rstudio.cloud/project/
 
-- [Introduction](https://www.youtube.com/watch?v=S4OmWxc3h3Y&list=PLS6tnpTr39sERjvBbJGr9mpqvtiLVPzd4)
-- [Drawing lines](https://www.youtube.com/watch?v=DGbLEgL4g6Y&list=PLS6tnpTr39sERjvBbJGr9mpqvtiLVPzd4)
-- [Lines, Greek, and regression](https://www.youtube.com/watch?v=n-rV1TIoIgw&list=PLS6tnpTr39sERjvBbJGr9mpqvtiLVPzd4)
-- [Null worlds and statistical significance](https://www.youtube.com/watch?v=RYKsrTKWCR4&list=PLS6tnpTr39sERjvBbJGr9mpqvtiLVPzd4)
+**Reminder**: You need to save a permanent copy or download the project to keep your exercises
+
+### Videos
+
+Videos for each section of the lecture are [available at this YouTube playlist](https://www.youtube.com/playlist?list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE).
+
+- [01 - Transforming Data](https://www.youtube.com/watch?v=B1a_AnogAuE&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [02 - Transforming Data](https://www.youtube.com/watch?v=rewqX8KfxRg&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [03 - Transforming Data](https://www.youtube.com/watch?v=QyOJ9sSbm38&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [04 - Transforming Data](https://www.youtube.com/watch?v=SGwItNK-fM4&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [05 - Transforming Data](https://www.youtube.com/watch?v=XAx6jDiTZJk&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [06 - Transforming Data](https://www.youtube.com/watch?v=K_fDSRoYieU&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [07 - Transforming Data](https://www.youtube.com/watch?v=U_e24jJwPnY&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [08 - Transforming Data](https://www.youtube.com/watch?v=ThsrrJQerLI&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
 
 You can also watch the playlist (and skip around to different sections) here:
 
 <div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PLS6tnpTr39sERjvBbJGr9mpqvtiLVPzd4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 
+## Lecture: Visualizing data (customization) 
+
+### Exercises
+
+*Work through these videos and exercises on your own prior to class on **Feb. 9***
+
+<i class="fas fa-desktop"></i> **Option 1**: Download the material locally
+
+
+```r
+au.rcourse::use_module("04-ggplot_customizing")
+```
+
+<i class="fas fa-cloud"></i> **Option 2**: Complete the exercises at RStudio Cloud: https://rstudio.cloud/project/
+
+**Reminder**: You need to save a permanent copy or download the project to keep your exercises
+
+### Videos
+
+Videos for each section of the lecture are [available at this YouTube playlist](https://www.youtube.com/playlist?list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE).
+
+- [01 - Transforming Data](https://www.youtube.com/watch?v=B1a_AnogAuE&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [02 - Transforming Data](https://www.youtube.com/watch?v=rewqX8KfxRg&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [03 - Transforming Data](https://www.youtube.com/watch?v=QyOJ9sSbm38&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [04 - Transforming Data](https://www.youtube.com/watch?v=SGwItNK-fM4&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [05 - Transforming Data](https://www.youtube.com/watch?v=XAx6jDiTZJk&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [06 - Transforming Data](https://www.youtube.com/watch?v=K_fDSRoYieU&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [07 - Transforming Data](https://www.youtube.com/watch?v=U_e24jJwPnY&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [08 - Transforming Data](https://www.youtube.com/watch?v=ThsrrJQerLI&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+
+You can also watch the playlist (and skip around to different sections) here:
+
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
