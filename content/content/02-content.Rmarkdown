@@ -11,7 +11,7 @@ menu:
 type: docs
 toc: true
 slides: "02-slides"
-draft: true
+draft: false
 ---
 
 ```{r, echo=FALSE}
