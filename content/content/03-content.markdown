@@ -62,21 +62,21 @@ au.rcourse::use_module("03-ggplot_basics")
 
 ### Videos
 
-Videos for each section of the lecture are [available at this YouTube playlist](https://www.youtube.com/playlist?list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE).
+Videos for each section of the lecture are [available at this YouTube playlist](https://www.youtube.com/playlist?list=PLYCuG6HXKxjSoqaehof8Y6Xmt-W8XtHHj).
 
-- [01 - Visualizing data (the basics)](https://www.youtube.com/watch?v=B1a_AnogAuE&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
-- [02 - Visualizing data (the basics)](https://www.youtube.com/watch?v=rewqX8KfxRg&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
-- [03 - Visualizing data (the basics)](https://www.youtube.com/watch?v=QyOJ9sSbm38&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
-- [04 - Visualizing data (the basics)](https://www.youtube.com/watch?v=SGwItNK-fM4&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
-- [05 - Visualizing data (the basics)](https://www.youtube.com/watch?v=XAx6jDiTZJk&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
-- [06 - Visualizing data (the basics)](https://www.youtube.com/watch?v=K_fDSRoYieU&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
-- [07 - Visualizing data (the basics)](https://www.youtube.com/watch?v=U_e24jJwPnY&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
-- [08 - Visualizing data (the basics)](https://www.youtube.com/watch?v=ThsrrJQerLI&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [01 - Visualizing data (the basics)](https://www.youtube.com/watch?v=6qW1assnyiM&list=PLYCuG6HXKxjSoqaehof8Y6Xmt-W8XtHHj)
+- [02 - Visualizing data (the basics)](https://www.youtube.com/watch?v=eGWOJ-G-zys&list=PLYCuG6HXKxjSoqaehof8Y6Xmt-W8XtHHj)
+- [03 - Visualizing data (the basics)](https://www.youtube.com/watch?v=rd9aU_Q5e2A&list=PLYCuG6HXKxjSoqaehof8Y6Xmt-W8XtHHj)
+- [04 - Visualizing data (the basics)](https://www.youtube.com/watch?v=FuLPfrmyeBQ&list=PLYCuG6HXKxjSoqaehof8Y6Xmt-W8XtHHj)
+- [05 - Visualizing data (the basics)](https://www.youtube.com/watch?v=4g6Q9cebaos&list=PLYCuG6HXKxjSoqaehof8Y6Xmt-W8XtHHj)
+- [06 - Visualizing data (the basics)](https://www.youtube.com/watch?v=zuMtIyksr0E&list=PLYCuG6HXKxjSoqaehof8Y6Xmt-W8XtHHj)
+- [07 - Visualizing data (the basics)](https://www.youtube.com/watch?v=RC17JpVNq4s&list=PLYCuG6HXKxjSoqaehof8Y6Xmt-W8XtHHj)
+- [08 - Visualizing data (the basics)](https://www.youtube.com/watch?v=lAaSvyhMtfg&list=PLYCuG6HXKxjSoqaehof8Y6Xmt-W8XtHHj)
 
 You can also watch the playlist (and skip around to different sections) here:
 
 <div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PLYCuG6HXKxjSoqaehof8Y6Xmt-W8XtHHj" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 

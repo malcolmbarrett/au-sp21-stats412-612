@@ -18,18 +18,18 @@ draft: true
 source(here::here("R", "youtube-playlist.R"))
 
 # first lecture
-playlist_id_gg1 <- "PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE"
+playlist_id_gg1 <- "PLYCuG6HXKxjSoqaehof8Y6Xmt-W8XtHHj"
 
 video_details_gg1 <- tibble::tribble(
   ~youtube_id,   ~title,
-  "B1a_AnogAuE", "01 - Visualizing data (the basics)",
-  "rewqX8KfxRg", "02 - Visualizing data (the basics)",
-  "QyOJ9sSbm38", "03 - Visualizing data (the basics)",
-  "SGwItNK-fM4", "04 - Visualizing data (the basics)",
-  "XAx6jDiTZJk", "05 - Visualizing data (the basics)",
-  "K_fDSRoYieU", "06 - Visualizing data (the basics)",
-  "U_e24jJwPnY", "07 - Visualizing data (the basics)",
-  "ThsrrJQerLI", "08 - Visualizing data (the basics)",
+  "6qW1assnyiM", "01 - Visualizing data (the basics)",
+  "eGWOJ-G-zys", "02 - Visualizing data (the basics)",
+  "rd9aU_Q5e2A", "03 - Visualizing data (the basics)",
+  "FuLPfrmyeBQ", "04 - Visualizing data (the basics)",
+  "4g6Q9cebaos", "05 - Visualizing data (the basics)",
+  "zuMtIyksr0E", "06 - Visualizing data (the basics)",
+  "RC17JpVNq4s", "07 - Visualizing data (the basics)",
+  "lAaSvyhMtfg", "08 - Visualizing data (the basics)",
 )
 
 # second lecture
