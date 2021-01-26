@@ -32,7 +32,13 @@ draft: true
 *Turn in on Blackboard before class on February 9th*
 
 - <i class="fas fa-desktop"></i>  Exercises from [R For Data Science: Data transformation](https://r4ds.had.co.nz/transform.html)
-
+  - [Exercises 5.2.4](https://r4ds.had.co.nz/transform.html#exercises-8)
+    - Questions 1-3
+  - [Exercises 5.3.1](https://r4ds.had.co.nz/transform.html#exercises-9)
+    - Questions 1-3
+  - [Exercises 5.6.7](https://r4ds.had.co.nz/transform.html#exercises-9)
+    - Questions 2 and 6
+    
 ## Bonus material
 - <i class="fas fa-external-link-square-alt"></i> [RStudio Primer: Visualize Data](https://rstudio.cloud/learn/primers/3)
 - <i class="fas fa-external-link-square-alt"></i> [STAT 545: Graphics Overview (Chs 22-29)](https://stat545.com/graphics-overview.html)
