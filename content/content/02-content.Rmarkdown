@@ -48,6 +48,10 @@ video_details <- tibble::tribble(
 *Turn in on Blackboard before class on February 2nd*
 
 - <i class="fas fa-desktop"></i>  Exercises from [R For Data Science: Data Import](https://r4ds.had.co.nz/data-import.html)
+  - [Exercises 11.2.2](https://r4ds.had.co.nz/data-import.html#exercises-21)
+    - Questions 1-5
+  - [Exercises 11.3.5](https://r4ds.had.co.nz/data-import.html#exercises-22)
+    - Questions 1, 2, and 5
 
 ## Bonus material
 - <i class="fas fa-external-link-square-alt"></i> [RStudio Primer: Work with Data](https://rstudio.cloud/learn/primers/2)
