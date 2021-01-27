@@ -11,7 +11,7 @@ menu:
 type: docs
 toc: true
 slides: "03-slides"
-draft: true
+draft: false
 ---
 
 
@@ -99,19 +99,17 @@ au.rcourse::use_module("04-ggplot_customizing")
 
 ### Videos
 
-Videos for each section of the lecture are [available at this YouTube playlist](https://www.youtube.com/playlist?list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE).
+Videos for each section of the lecture are [available at this YouTube playlist](https://www.youtube.com/playlist?list=PLYCuG6HXKxjRmBBuLr0hVRt6POkDfW_G9).
 
-- [01 - Visualizing data (customization)](https://www.youtube.com/watch?v=B1a_AnogAuE&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
-- [02 - Visualizing data (customization)](https://www.youtube.com/watch?v=rewqX8KfxRg&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
-- [03 - Visualizing data (customization)](https://www.youtube.com/watch?v=QyOJ9sSbm38&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
-- [04 - Visualizing data (customization)](https://www.youtube.com/watch?v=SGwItNK-fM4&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
-- [05 - Visualizing data (customization)](https://www.youtube.com/watch?v=XAx6jDiTZJk&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
-- [06 - Visualizing data (customization)](https://www.youtube.com/watch?v=K_fDSRoYieU&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
-- [07 - Visualizing data (customization)](https://www.youtube.com/watch?v=U_e24jJwPnY&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
-- [08 - Visualizing data (customization)](https://www.youtube.com/watch?v=ThsrrJQerLI&list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE)
+- [01 - Visualizing data (customization)](https://www.youtube.com/watch?v=4ycrwN2KHJw&list=PLYCuG6HXKxjRmBBuLr0hVRt6POkDfW_G9)
+- [02 - Visualizing data (customization)](https://www.youtube.com/watch?v=ofPFexm5g3Q&list=PLYCuG6HXKxjRmBBuLr0hVRt6POkDfW_G9)
+- [03 - Visualizing data (customization)](https://www.youtube.com/watch?v=YydDmgJpyng&list=PLYCuG6HXKxjRmBBuLr0hVRt6POkDfW_G9)
+- [04 - Visualizing data (customization)](https://www.youtube.com/watch?v=rqVgchsgbFI&list=PLYCuG6HXKxjRmBBuLr0hVRt6POkDfW_G9)
+- [05 - Visualizing data (customization)](https://www.youtube.com/watch?v=3yPtWywM8Vs&list=PLYCuG6HXKxjRmBBuLr0hVRt6POkDfW_G9)
+- [06 - Visualizing data (customization)](https://www.youtube.com/watch?v=ReXxsy84YKI&list=PLYCuG6HXKxjRmBBuLr0hVRt6POkDfW_G9)
 
 You can also watch the playlist (and skip around to different sections) here:
 
 <div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PLYCuG6HXKxjRmBBuLr0hVRt6POkDfW_G9" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

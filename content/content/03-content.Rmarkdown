@@ -11,7 +11,7 @@ menu:
 type: docs
 toc: true
 slides: "03-slides"
-draft: true
+draft: false
 ---
 
 ```{r, echo=FALSE}
@@ -33,18 +33,16 @@ video_details_gg1 <- tibble::tribble(
 )
 
 # second lecture
-playlist_id_gg2 <- "PLYCuG6HXKxjQAJ3PzfKoycbbis6Z6t9iE"
+playlist_id_gg2 <- "PLYCuG6HXKxjRmBBuLr0hVRt6POkDfW_G9"
 
 video_details_gg2 <- tibble::tribble(
   ~youtube_id,   ~title,
-  "B1a_AnogAuE", "01 - Visualizing data (customization)",
-  "rewqX8KfxRg", "02 - Visualizing data (customization)",
-  "QyOJ9sSbm38", "03 - Visualizing data (customization)",
-  "SGwItNK-fM4", "04 - Visualizing data (customization)",
-  "XAx6jDiTZJk", "05 - Visualizing data (customization)",
-  "K_fDSRoYieU", "06 - Visualizing data (customization)",
-  "U_e24jJwPnY", "07 - Visualizing data (customization)",
-  "ThsrrJQerLI", "08 - Visualizing data (customization)",
+  "4ycrwN2KHJw", "01 - Visualizing data (customization)",
+  "ofPFexm5g3Q", "02 - Visualizing data (customization)",
+  "YydDmgJpyng", "03 - Visualizing data (customization)",
+  "rqVgchsgbFI", "04 - Visualizing data (customization)",
+  "3yPtWywM8Vs", "05 - Visualizing data (customization)",
+  "ReXxsy84YKI", "06 - Visualizing data (customization)"
 )
 ```
 
