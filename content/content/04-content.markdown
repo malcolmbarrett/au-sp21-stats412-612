@@ -1,6 +1,6 @@
 ---
-title: "Visualizing data"
-linktitle: "03-04: Visualizing data"
+title: "Week 4"
+linktitle: "Week 4"
 date: "2021-02-09"
 start_date: "2021-02-09"
 end_date: "2021-02-15"
@@ -11,89 +11,74 @@ menu:
 type: docs
 toc: true
 slides: "04-slides"
-draft: true
+draft: false
 ---
 
 
 
-## Readings
 
-- <i class="fas fa-book"></i> Chapter 2 in *Mastering 'Metrics* [@AngristPischke:2015]
-- <i class="fas fa-book"></i> [Chapter 2, "Probability and Regression Review"](https://mixtape.scunning.com/ch1.html) in *Causal Inference: The Mixtape* (this is long; skim through this as a review) [@mixtape]
+## Required content
 
-## Recommended readings
+*Finish this material before class on February 16th*
 
-Look through your notes on regression from your last stats class. Also, you can skim through these resources:
+- <i class="fab fa-youtube"></i> Project 1: ggplot2 Recreation Challenge ([see below](#project-1-ggplot2-recreation-challeng)). **Note: this project is not due until Feb. 23**.
+- <i class="fas fa-book"></i> [R For Data Science: Workflow, scripts](https://r4ds.had.co.nz/workflow-scripts.html)
+- <i class="fas fa-book"></i> [What They Forgot to Teach You About R: Project-oriented workflow](https://rstats.wtf/project-oriented-workflow.html)
+- <i class="fas fa-book"></i> [Tidyverse Style Guide: pipes](https://style.tidyverse.org/pipes.html)
 
-- <i class="fas fa-book"></i> [6.1–6.4 in *ModernDive*](https://moderndive.com/6-regression.html) [@IsmayKim:2018]
-- <i class="fas fa-book"></i> [7.1–7.4 in *ModernDive*](https://moderndive.com/7-multiple-regression.html) [@IsmayKim:2018]
-- <i class="fas fa-book"></i> 7.1–7.3 in *OpenIntro Statistics* [@DiezBarrCetinkaya-Rundel:2017]
-- <i class="fas fa-book"></i> 8.1 in *OpenIntro Statistics* [@DiezBarrCetinkaya-Rundel:2017]
+## What's due this week
 
-We'll review all this regression stuff in the videos, so *don't panic* if this all looks terrifying! Also, take advantage of the videos that accompany the *OpenIntro* chapters. And *also*, the *OpenIntro* chapters are heavier on the math—don't worry if you don't understand everything.
+*Turn in on Blackboard before class on February 16th*
 
+- <i class="fas fa-desktop"></i>  Exercises from [R For Data Science: Data visualisation](https://r4ds.had.co.nz/data-visualisation.html)
+  - [Exercises 3.2.4](https://r4ds.had.co.nz/data-visualisation.html#exercises)
+    - Questions 1, 2, and 4
+  - [Exercises 3.3.1](https://r4ds.had.co.nz/data-visualisation.html#exercises-1)
+    - Questions 1 and 6
+  - [Exercises 3.5.1](https://r4ds.had.co.nz/data-visualisation.html#exercises-2)
+    - Questions 1 and 5
+  - [Exercises 3.6.1](https://r4ds.had.co.nz/data-visualisation.html#exercises-3)
+    - Question 5
+  - [Exercises 3.7.1](https://r4ds.had.co.nz/data-visualisation.html#exercises-4)
+    - Question 2
+  - [Exercises 3.9.1](https://r4ds.had.co.nz/data-visualisation.html#exercises-6)
+    - Questions 1 and 4
+    
+## Bonus material
+- <i class="fas fa-external-link-square-alt"></i> [Data Visualization: A practical introduction](https://socviz.co/)
+- <i class="fas fa-external-link-square-alt"></i> [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/)
 
-## Slides
+## Project 1: ggplot2 Recreation Challenge
 
-The slides for today's lesson are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.
+### Project materials
 
-{{% slide-buttons %}}
+Project 1 is due on **Feb. 23**, and you will have time to work on it in class on Feb. 16. You may work in groups or individually. Turn in `exercises.Rmd` with your name (and any group members, of applicable).
 
-<ul class="nav nav-tabs" id="slide-tabs" role="tablist">
-<li class="nav-item">
-<a class="nav-link active" id="introduction-tab" data-toggle="tab" href="#introduction" role="tab" aria-controls="introduction" aria-selected="true">Introduction</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" id="drawing-lines-tab" data-toggle="tab" href="#drawing-lines" role="tab" aria-controls="drawing-lines" aria-selected="false">Drawing lines</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" id="lines-greek-and-regression-tab" data-toggle="tab" href="#lines-greek-and-regression" role="tab" aria-controls="lines-greek-and-regression" aria-selected="false">Lines, Greek, and regression</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" id="null-worlds-and-statistical-significance-tab" data-toggle="tab" href="#null-worlds-and-statistical-significance" role="tab" aria-controls="null-worlds-and-statistical-significance" aria-selected="false">Null worlds and statistical significance</a>
-</li>
-</ul>
-<div class="tab-content" id="slide-tabs">
-<div class="tab-pane fade show active" id="introduction" role="tabpanel" aria-labelledby="introduction-tab">
-<div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="/slides/02-slides.html#1"></iframe>
-</div>
-</div>
-<div class="tab-pane fade" id="drawing-lines" role="tabpanel" aria-labelledby="drawing-lines-tab">
-<div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="/slides/02-slides.html#drawing-lines"></iframe>
-</div>
-</div>
-<div class="tab-pane fade" id="lines-greek-and-regression" role="tabpanel" aria-labelledby="lines-greek-and-regression-tab">
-<div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="/slides/02-slides.html#lines-greek-regression"></iframe>
-</div>
-</div>
-<div class="tab-pane fade" id="null-worlds-and-statistical-significance" role="tabpanel" aria-labelledby="null-worlds-and-statistical-significance-tab">
-<div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="/slides/02-slides.html#significance"></iframe>
-</div>
-</div>
-</div>
+In addition to completing the tasks in the assignment, this project must run on my machine. [Use a blank slate](https://rstats.wtf/save-source.html#always-start-r-with-a-blank-slate) and restart your R session regularly, running all of the code to make sure it works correctly. Regularly checking your code with a blank slate will make sure things work as you intend.
 
-{{% div fyi %}}
-**Fun fact**: If you type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) while going through the slides, you can see a list of special slide-specific commands.
-{{% /div %}}
+You must also use the [Tidyverse code style](https://style.tidyverse.org/). Feel free to use [styler](https://styler.r-lib.org/) to automate this process.
+
+<i class="fas fa-desktop"></i> **Option 1**: Download the material locally
 
 
-## Videos
+```r
+au.rcourse::use_module("05-ggplot_recreate_challenge")
+```
 
-Videos for each section of the lecture are [available at this YouTube playlist](https://www.youtube.com/playlist?list=PLS6tnpTr39sERjvBbJGr9mpqvtiLVPzd4).
+<i class="fas fa-cloud"></i> **Option 2**: Complete the assignment at RStudio Cloud: https://rstudio.cloud/project/2119133
 
-- [Introduction](https://www.youtube.com/watch?v=S4OmWxc3h3Y&list=PLS6tnpTr39sERjvBbJGr9mpqvtiLVPzd4)
-- [Drawing lines](https://www.youtube.com/watch?v=DGbLEgL4g6Y&list=PLS6tnpTr39sERjvBbJGr9mpqvtiLVPzd4)
-- [Lines, Greek, and regression](https://www.youtube.com/watch?v=n-rV1TIoIgw&list=PLS6tnpTr39sERjvBbJGr9mpqvtiLVPzd4)
-- [Null worlds and statistical significance](https://www.youtube.com/watch?v=RYKsrTKWCR4&list=PLS6tnpTr39sERjvBbJGr9mpqvtiLVPzd4)
+**Reminder**: You need to download a copy of `exercises.Rmd` to submit.
+
+### Videos
+
+*Watch this video to prepare for Project 1.*
+
+Videos for each section of the lecture are [available at this YouTube playlist](https://www.youtube.com/playlist?list=PLYCuG6HXKxjSc06XJQwmCnGmqQrRG7y6l).
+
+- [01 - ggplot2 recreation challenge](https://www.youtube.com/watch?v=3ICY6HONPmU&list=PLYCuG6HXKxjSc06XJQwmCnGmqQrRG7y6l)
 
 You can also watch the playlist (and skip around to different sections) here:
 
 <div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PLS6tnpTr39sERjvBbJGr9mpqvtiLVPzd4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PLYCuG6HXKxjSc06XJQwmCnGmqQrRG7y6l" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-
-
