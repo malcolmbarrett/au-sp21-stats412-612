@@ -1,6 +1,6 @@
 ---
-title: "Assignment 1"
-linktitle: "05: Assignment 1"
+title: "Week 5"
+linktitle: "Week 5"
 date: "2021-02-16"
 start_date: "2021-02-16"
 end_date: "2021-02-22"
@@ -11,89 +11,59 @@ menu:
 type: docs
 toc: true
 slides: "05-slides"
-draft: true
+draft: false
 ---
 
 
 
-## Readings
+## Required content
 
-- <i class="fas fa-book"></i> Chapter 2 in *Mastering 'Metrics* [@AngristPischke:2015]
-- <i class="fas fa-book"></i> [Chapter 2, "Probability and Regression Review"](https://mixtape.scunning.com/ch1.html) in *Causal Inference: The Mixtape* (this is long; skim through this as a review) [@mixtape]
+*Finish this material before class on February 23rd*
 
-## Recommended readings
+- <i class="fab fa-youtube"></i> Lecture and exercises: Tidying data ([see below](#lecture-tidying-data))
+- <i class="fas fa-book"></i> [R For Data Science: Tidy data](https://r4ds.had.co.nz/tidy-data.html)
+- <i class="fas fa-book"></i> [R For Data Science: Workflow, projects](https://r4ds.had.co.nz/workflow-projects.html)
+- <i class="fas fa-book"></i> [What They Forgot to Teach You About R: Safe paths](https://rstats.wtf/safe-paths.html)
+- <i class="fas fa-book"></i> [Asking for help in R](https://www.tidyverse.org/help/)
 
-Look through your notes on regression from your last stats class. Also, you can skim through these resources:
+## What's due this week
 
-- <i class="fas fa-book"></i> [6.1–6.4 in *ModernDive*](https://moderndive.com/6-regression.html) [@IsmayKim:2018]
-- <i class="fas fa-book"></i> [7.1–7.4 in *ModernDive*](https://moderndive.com/7-multiple-regression.html) [@IsmayKim:2018]
-- <i class="fas fa-book"></i> 7.1–7.3 in *OpenIntro Statistics* [@DiezBarrCetinkaya-Rundel:2017]
-- <i class="fas fa-book"></i> 8.1 in *OpenIntro Statistics* [@DiezBarrCetinkaya-Rundel:2017]
+*Turn in on Blackboard before class on February 23rd*
 
-We'll review all this regression stuff in the videos, so *don't panic* if this all looks terrifying! Also, take advantage of the videos that accompany the *OpenIntro* chapters. And *also*, the *OpenIntro* chapters are heavier on the math—don't worry if you don't understand everything.
+- <i class="fas fa-desktop"></i> [Project 1](../04-content/#project-1-ggplot2-recreation-challenge)
+    
+## Bonus material
+- <i class="fas fa-external-link-square-alt"></i> [Pivoting](https://tidyr.tidyverse.org/articles/pivot.html)
 
+## Lecture: Tidying data 
 
-## Slides
+### Exercises
 
-The slides for today's lesson are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.
+*Work through these videos and exercises on your own prior to class on **Feb. 23rd***
 
-{{% slide-buttons %}}
-
-<ul class="nav nav-tabs" id="slide-tabs" role="tablist">
-<li class="nav-item">
-<a class="nav-link active" id="introduction-tab" data-toggle="tab" href="#introduction" role="tab" aria-controls="introduction" aria-selected="true">Introduction</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" id="drawing-lines-tab" data-toggle="tab" href="#drawing-lines" role="tab" aria-controls="drawing-lines" aria-selected="false">Drawing lines</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" id="lines-greek-and-regression-tab" data-toggle="tab" href="#lines-greek-and-regression" role="tab" aria-controls="lines-greek-and-regression" aria-selected="false">Lines, Greek, and regression</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" id="null-worlds-and-statistical-significance-tab" data-toggle="tab" href="#null-worlds-and-statistical-significance" role="tab" aria-controls="null-worlds-and-statistical-significance" aria-selected="false">Null worlds and statistical significance</a>
-</li>
-</ul>
-<div class="tab-content" id="slide-tabs">
-<div class="tab-pane fade show active" id="introduction" role="tabpanel" aria-labelledby="introduction-tab">
-<div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="/slides/02-slides.html#1"></iframe>
-</div>
-</div>
-<div class="tab-pane fade" id="drawing-lines" role="tabpanel" aria-labelledby="drawing-lines-tab">
-<div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="/slides/02-slides.html#drawing-lines"></iframe>
-</div>
-</div>
-<div class="tab-pane fade" id="lines-greek-and-regression" role="tabpanel" aria-labelledby="lines-greek-and-regression-tab">
-<div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="/slides/02-slides.html#lines-greek-regression"></iframe>
-</div>
-</div>
-<div class="tab-pane fade" id="null-worlds-and-statistical-significance" role="tabpanel" aria-labelledby="null-worlds-and-statistical-significance-tab">
-<div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="/slides/02-slides.html#significance"></iframe>
-</div>
-</div>
-</div>
-
-{{% div fyi %}}
-**Fun fact**: If you type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) while going through the slides, you can see a list of special slide-specific commands.
-{{% /div %}}
+<i class="fas fa-desktop"></i> **Option 1**: Download the material locally
 
 
-## Videos
+```r
+au.rcourse::use_module("06-tidyr_basics")
+```
 
-Videos for each section of the lecture are [available at this YouTube playlist](https://www.youtube.com/playlist?list=PLS6tnpTr39sERjvBbJGr9mpqvtiLVPzd4).
+<i class="fas fa-cloud"></i> **Option 2**: Complete the exercises at RStudio Cloud: https://rstudio.cloud/project/2119964
 
-- [Introduction](https://www.youtube.com/watch?v=S4OmWxc3h3Y&list=PLS6tnpTr39sERjvBbJGr9mpqvtiLVPzd4)
-- [Drawing lines](https://www.youtube.com/watch?v=DGbLEgL4g6Y&list=PLS6tnpTr39sERjvBbJGr9mpqvtiLVPzd4)
-- [Lines, Greek, and regression](https://www.youtube.com/watch?v=n-rV1TIoIgw&list=PLS6tnpTr39sERjvBbJGr9mpqvtiLVPzd4)
-- [Null worlds and statistical significance](https://www.youtube.com/watch?v=RYKsrTKWCR4&list=PLS6tnpTr39sERjvBbJGr9mpqvtiLVPzd4)
+**Reminder**: You need to save a permanent copy or download the project to keep your exercises
+
+### Videos
+
+Videos for each section of the lecture are [available at this YouTube playlist](https://www.youtube.com/playlist?list=PLYCuG6HXKxjRzQG7I64JJRSGmSOo86PNn).
+
+- [01 - Tidying data](https://www.youtube.com/watch?v=nXbmx4zODDc&list=PLYCuG6HXKxjRzQG7I64JJRSGmSOo86PNn)
+- [02 - Tidying data](https://www.youtube.com/watch?v=5DvOMlJCdSg&list=PLYCuG6HXKxjRzQG7I64JJRSGmSOo86PNn)
+- [03 - Tidying data](https://www.youtube.com/watch?v=95zTCOZhnJQ&list=PLYCuG6HXKxjRzQG7I64JJRSGmSOo86PNn)
+- [04 - Tidying data](https://www.youtube.com/watch?v=j7ozHo33UcE&list=PLYCuG6HXKxjRzQG7I64JJRSGmSOo86PNn)
 
 You can also watch the playlist (and skip around to different sections) here:
 
 <div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PLS6tnpTr39sERjvBbJGr9mpqvtiLVPzd4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PLYCuG6HXKxjRzQG7I64JJRSGmSOo86PNn" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-
 

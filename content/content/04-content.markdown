@@ -21,7 +21,7 @@ draft: false
 
 *Finish this material before class on February 16th*
 
-- <i class="fab fa-youtube"></i> Project 1: ggplot2 Recreation Challenge ([see below](#project-1-ggplot2-recreation-challeng)). **Note: this project is not due until Feb. 23**.
+- <i class="fab fa-youtube"></i> Project 1: ggplot2 Recreation Challenge ([see below](#project-1-ggplot2-recreation-challenge)). **Note: this project is not due until Feb. 23**.
 - <i class="fas fa-book"></i> [R For Data Science: Workflow, scripts](https://r4ds.had.co.nz/workflow-scripts.html)
 - <i class="fas fa-book"></i> [What They Forgot to Teach You About R: Project-oriented workflow](https://rstats.wtf/project-oriented-workflow.html)
 - <i class="fas fa-book"></i> [Tidyverse Style Guide: pipes](https://style.tidyverse.org/pipes.html)

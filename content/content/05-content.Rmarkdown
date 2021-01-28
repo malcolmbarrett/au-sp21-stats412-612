@@ -1,6 +1,6 @@
 ---
-title: "Assignment 1"
-linktitle: "05: Assignment 1"
+title: "Week 5"
+linktitle: "Week 5"
 date: "2021-02-16"
 start_date: "2021-02-16"
 end_date: "2021-02-22"
@@ -11,101 +11,61 @@ menu:
 type: docs
 toc: true
 slides: "05-slides"
-draft: true
+draft: false
 ---
 
-```{r slides-videos, echo=FALSE, include=FALSE}
-source(here::here("R", "slide-tabs.R"))
+```{r, echo=FALSE}
 source(here::here("R", "youtube-playlist.R"))
 
-playlist_id <- "PLS6tnpTr39sERjvBbJGr9mpqvtiLVPzd4"
+playlist_id <- "PLYCuG6HXKxjRzQG7I64JJRSGmSOo86PNn"
 
-slide_details <- tibble::tribble(
-  ~youtube_id,   ~title, ~slide, ~active,
-  "S4OmWxc3h3Y", "Introduction", "1", TRUE,
-  "DGbLEgL4g6Y", "Drawing lines", "drawing-lines", FALSE,
-  "n-rV1TIoIgw", "Lines, Greek, and regression", "lines-greek-regression", FALSE,
-  "RYKsrTKWCR4", "Null worlds and statistical significance", "significance", FALSE
+video_details <- tibble::tribble(
+  ~youtube_id,   ~title,
+  "nXbmx4zODDc", "01 - Tidying data",
+  "5DvOMlJCdSg", "02 - Tidying data",
+  "95zTCOZhnJQ", "03 - Tidying data",
+  "j7ozHo33UcE", "04 - Tidying data"
 )
 ```
 
-## Readings
+## Required content
 
-- <i class="fas fa-book"></i> Chapter 2 in *Mastering 'Metrics* [@AngristPischke:2015]
-- <i class="fas fa-book"></i> [Chapter 2, "Probability and Regression Review"](https://mixtape.scunning.com/ch1.html) in *Causal Inference: The Mixtape* (this is long; skim through this as a review) [@mixtape]
+*Finish this material before class on February 23rd*
 
-## Recommended readings
+- <i class="fab fa-youtube"></i> Lecture and exercises: Tidying data ([see below](#lecture-tidying-data))
+- <i class="fas fa-book"></i> [R For Data Science: Tidy data](https://r4ds.had.co.nz/tidy-data.html)
+- <i class="fas fa-book"></i> [R For Data Science: Workflow, projects](https://r4ds.had.co.nz/workflow-projects.html)
+- <i class="fas fa-book"></i> [What They Forgot to Teach You About R: Safe paths](https://rstats.wtf/safe-paths.html)
+- <i class="fas fa-book"></i> [Asking for help in R](https://www.tidyverse.org/help/)
 
-Look through your notes on regression from your last stats class. Also, you can skim through these resources:
+## What's due this week
 
-- <i class="fas fa-book"></i> [6.1–6.4 in *ModernDive*](https://moderndive.com/6-regression.html) [@IsmayKim:2018]
-- <i class="fas fa-book"></i> [7.1–7.4 in *ModernDive*](https://moderndive.com/7-multiple-regression.html) [@IsmayKim:2018]
-- <i class="fas fa-book"></i> 7.1–7.3 in *OpenIntro Statistics* [@DiezBarrCetinkaya-Rundel:2017]
-- <i class="fas fa-book"></i> 8.1 in *OpenIntro Statistics* [@DiezBarrCetinkaya-Rundel:2017]
+*Turn in on Blackboard before class on February 23rd*
 
-We'll review all this regression stuff in the videos, so *don't panic* if this all looks terrifying! Also, take advantage of the videos that accompany the *OpenIntro* chapters. And *also*, the *OpenIntro* chapters are heavier on the math—don't worry if you don't understand everything.
+- <i class="fas fa-desktop"></i> [Project 1](../04-content/#project-1-ggplot2-recreation-challenge)
+    
+## Bonus material
+- <i class="fas fa-external-link-square-alt"></i> [Pivoting](https://tidyr.tidyverse.org/articles/pivot.html)
 
+## Lecture: Tidying data 
 
-## Slides
+### Exercises
 
-The slides for today's lesson are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.
+*Work through these videos and exercises on your own prior to class on **Feb. 23rd***
 
-`r blogdown::shortcode("slide-buttons")`
+<i class="fas fa-desktop"></i> **Option 1**: Download the material locally
 
-```{r show-slide-tabs, echo=FALSE, results="asis"}
-slide_tabs(slide_details, "/slides/02-slides.html")
+```{r, eval = FALSE}
+au.rcourse::use_module("06-tidyr_basics")
 ```
 
-{{% div fyi %}}
-**Fun fact**: If you type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) while going through the slides, you can see a list of special slide-specific commands.
-{{% /div %}}
+<i class="fas fa-cloud"></i> **Option 2**: Complete the exercises at RStudio Cloud: https://rstudio.cloud/project/2119964
 
+**Reminder**: You need to save a permanent copy or download the project to keep your exercises
 
-## Videos
+### Videos
 
 ```{r show-youtube-list, echo=FALSE, results="asis"}
-youtube_list(slide_details, playlist_id)
+youtube_list(video_details, playlist_id)
 ```
 
-```{cat include=FALSE, eval=FALSE}
-Playlist: https://www.youtube.com/playlist?list=PLS6tnpTr39sERjvBbJGr9mpqvtiLVPzd4
-
-https://youtu.be/S4OmWxc3h3Y
-PMAP 8521 • (2) Regression and inference: (0) Introduction
-
-Introduction to the class session on regression and inference
-
-Access the slides and other materials at the course website at https://evalf20.classes.andrewheiss.com/content/02-content/
-
-
-https://youtu.be/DGbLEgL4g6Y
-PMAP 8521 • (2) Regression and inference: (1) Drawing lines
-
-Overview of the basics of regression analysis (particularly ordinary least squares (OLS) regression)
-
-Access the slides and other materials at the course website at https://evalf20.classes.andrewheiss.com/content/02-content/
-
-  
-https://youtu.be/n-rV1TIoIgw
-PMAP 8521 • (2) Regression and inference: (2) Lines, Greek, and regression
-
-Discussion of how to estimate parameters from a population using regression (with R specifically)
-
-Access the slides and other materials at the course website at https://evalf20.classes.andrewheiss.com/content/02-content/
-
-
-https://youtu.be/RYKsrTKWCR4
-PMAP 8521 • (2) Regression and inference: (3) Null worlds and statistical significance
-
-Discussion of statistical significance and p-values using simulated null worlds
-
-Access the slides and other materials at the course website at https://evalf20.classes.andrewheiss.com/content/02-content/
-
-
-https://youtu.be/E-Zz5S5NOUo
-PMAP 8521 • Example: Regression with R
-
-Demonstration of how to run regression models with R
-
-Download the data and see the polished code at https://evalf20.classes.andrewheiss.com/example/regression/
-```
