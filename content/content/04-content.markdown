@@ -45,6 +45,7 @@ draft: false
     - Questions 1 and 4
     
 ## Bonus material
+- <i class="fas fa-external-link-square-alt"></i> [Reporting on and visualising the pandemic](https://rstudio.com/resources/rstudioglobal-2021/reporting-on-and-visualising-the-pandemic/)
 - <i class="fas fa-external-link-square-alt"></i> [Data Visualization: A practical introduction](https://socviz.co/)
 - <i class="fas fa-external-link-square-alt"></i> [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/)
 
@@ -52,7 +53,7 @@ draft: false
 
 ### Project materials
 
-Project 1 is due on **Feb. 23**, and you will have time to work on it in class on Feb. 16. You may work in groups or individually. Turn in `exercises.Rmd` with your name (and any group members, of applicable).
+Project 1 is due on **Feb. 23**, and you will have time to work on it in class on Feb. 16. You may work in groups or individually. Turn in `exercises.Rmd` with your name (and any group members, if applicable).
 
 In addition to completing the tasks in the assignment, this project must run on my machine. [Use a blank slate](https://rstats.wtf/save-source.html#always-start-r-with-a-blank-slate) and restart your R session regularly, running all of the code to make sure it works correctly. Regularly checking your code with a blank slate will make sure things work as you intend.
 
