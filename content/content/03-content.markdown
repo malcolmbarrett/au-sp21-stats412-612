@@ -40,7 +40,9 @@ draft: false
     - Questions 2 and 6
     
 ## Bonus material
+
 - <i class="fas fa-external-link-square-alt"></i> [RStudio Primer: Visualize Data](https://rstudio.cloud/learn/primers/3)
+- <i class="fas fa-external-link-square-alt"></i> [Always look on the bright side of plots](https://rstudio.com/resources/rstudioglobal-2021/always-look-on-the-bright-side-of-plots/)
 - <i class="fas fa-external-link-square-alt"></i> [STAT 545: Graphics Overview (Chs 22-29)](https://stat545.com/graphics-overview.html)
 
 ## Lecture: Visualizing data (the basics) 
