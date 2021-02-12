@@ -1,0 +1,84 @@
+---
+title: "Week 9"
+linktitle: "Week 9"
+date: "2021-03-16"
+start_date: "2021-03-16"
+end_date: "2021-03-22"
+menu:
+  content:
+    parent: Course content
+    weight: 9
+type: docs
+toc: true
+slides: "09-slides"
+draft: true
+---
+
+
+```{r, echo=FALSE}
+source(here::here("R", "youtube-playlist.R"))
+
+playlist_id <- "PLYCuG6HXKxjRWJTVwIWXY6e0KVfGpxWgp"
+
+video_details <- tibble::tribble(
+  ~youtube_id,   ~title,
+  "tSQdrR3dkHE", "01 - Functional programming with purrr",
+  "XxyOeJEmMKE", "02 - Functional programming with purrr",
+  "IzZzqRrcN5E", "03 - Functional programming with purrr",
+  "D0AXF2RFLwo", "04 - Functional programming with purrr",
+  "uL-3fF9s5yk", "05 - Functional programming with purrr",
+  "6v4S0xK4JwU", "06 - Functional programming with purrr",
+  "FLrc5eWxoho", "07 - Functional programming with purrr",
+  "CIFyOoKy6bA", "08 - Functional programming with purrr"
+)
+```
+
+## Required content
+
+*Finish this material before class on March 23rd*
+
+- <i class="fab fa-youtube"></i> Lecture and exercises: Functional programming with purrr ([see below](#lecture-functional-programming-with-purrr)
+- <i class="fas fa-book"></i> [R For Data Science: iteration](https://r4ds.had.co.nz/iteration.html)
+- <i class="fas fa-youtube"></i> [Object of type 'closure' is not subsettable](https://rstudio.com/resources/rstudioconf-2020/object-of-type-closure-is-not-subsettable/)
+- <i class="fas fa-book"></i> [Tidy Modeling with R: ](https://www.tmwr.org/base-r.html). **Note**: Just read section 3.1 so you have a basic idea of how models run in R. You don't need to know understand linear regression for these exercises, but we'll use related functions.
+
+## What's due this week
+
+*Turn in on Blackboard before class on March 23rd*
+
+- <i class="fas fa-desktop"></i>  Exercises from [R For Data Science: Tidy data](https://r4ds.had.co.nz/tidy-data.html)
+  - [Exercises 12.3.3](https://r4ds.had.co.nz/tidy-data.html#exercises-24)
+    - Questions 1-4
+  - [Exercises 12.4.3](https://r4ds.had.co.nz/tidy-data.html#exercises-25)
+    - Questions 1 and 2
+  - [Exercises 12.5.1](https://r4ds.had.co.nz/tidy-data.html#exercises-26)
+    - Questions 1 and 2
+  
+    
+## Bonus material
+- <i class="fas fa-external-link-square-alt"></i> [RStudio Primers: Iterate](https://rstudio.cloud/learn/primers/5)
+- <i class="fas fa-book"></i> [What They Forgot to Teach You About R: Debugging R code](https://rstats.wtf/debugging-r-code.html)
+- <i class="fas fa-external-link-square-alt"></i> [Jenny Bryan's purrr tutorial](https://jennybc.github.io/purrr-tutorial/)
+
+## Lecture: Functional programming with purrr 
+
+### Exercises
+
+*Work through these videos and exercises on your own prior to class on **March 23rd***
+
+<i class="fas fa-desktop"></i> **Option 1**: Download the material locally
+
+```{r, eval = FALSE}
+au.rcourse::use_module("09-purrr_basics")
+```
+
+<i class="fas fa-cloud"></i> **Option 2**: Complete the exercises at RStudio Cloud: https://rstudio.cloud/project/2186213
+
+**Reminder**: You need to save a permanent copy or download the project to keep your exercises
+
+### Videos
+
+```{r show-youtube-list, echo=FALSE, results="asis"}
+youtube_list(video_details, playlist_id)
+```
+
