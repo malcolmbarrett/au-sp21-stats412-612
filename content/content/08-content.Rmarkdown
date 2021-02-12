@@ -18,11 +18,18 @@ draft: true
 ```{r, echo=FALSE}
 source(here::here("R", "youtube-playlist.R"))
 
-playlist_id <- "PLYCuG6HXKxjSc06XJQwmCnGmqQrRG7y6l"
+playlist_id <- "PLYCuG6HXKxjSHKZZ3waOcF6GgA8z49cSY"
 
 video_details <- tibble::tribble(
   ~youtube_id,   ~title,
-  "3ICY6HONPmU", "01 - Tidy Tuesday"
+  "dvKB4o-Sn4o", "01 - Types, Vectors, and Functions",
+  "sk0bxnyqXCA", "02 - Types, Vectors, and Functions",
+  "t6JhBz2NdlM", "03 - Types, Vectors, and Functions",
+  "2fo09Byn58E", "04 - Types, Vectors, and Functions",
+  "f2ZjCRPSlbs", "05 - Types, Vectors, and Functions",
+  "clGLo-Tqo9M", "06 - Types, Vectors, and Functions",
+  "f-nzIeelfeA", "07 - Types, Vectors, and Functions",
+  "EAENNif0vGU", "08 - Types, Vectors, and Functions"
 )
 ```
 
