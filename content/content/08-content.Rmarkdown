@@ -11,7 +11,7 @@ menu:
 type: docs
 toc: true
 slides: "08-slides"
-draft: true
+draft: false
 ---
 
 
