@@ -19,40 +19,34 @@ draft: true
 
 ## Required content
 
-*Finish this material before class on February 16th*
+*Finish this material before class on March 9th*
 
-- <i class="fab fa-youtube"></i> Project 1: ggplot2 Recreation Challenge ([see below](#project-1-ggplot2-recreation-challenge)). **Note: this project is not due until Feb. 23**.
-- <i class="fas fa-book"></i> [R For Data Science: Workflow, scripts](https://r4ds.had.co.nz/workflow-scripts.html)
-- <i class="fas fa-book"></i> [What They Forgot to Teach You About R: Project-oriented workflow](https://rstats.wtf/project-oriented-workflow.html)
-- <i class="fas fa-book"></i> [Tidyverse Style Guide: pipes](https://style.tidyverse.org/pipes.html)
+- <i class="fab fa-youtube"></i> Project 2: Tidy Tuesday ([see below](#project-2-tidy-tuesday)). **Note: this project is not due until Mar. 16**.
+- <i class="fas fa-book"></i> [R For Data Science: Strings](https://r4ds.had.co.nz/strings.html)
+- <i class="fas fa-book"></i> [R For Data Science: Factors](https://r4ds.had.co.nz/factors.html)
 
 ## What's due this week
 
-*Turn in on Blackboard before class on February 16th*
+*Turn in on Blackboard before class on March 9th*
 
-- <i class="fas fa-desktop"></i>  Exercises from [R For Data Science: Data visualisation](https://r4ds.had.co.nz/data-visualisation.html)
-  - [Exercises 3.2.4](https://r4ds.had.co.nz/data-visualisation.html#exercises)
-    - Questions 1, 2, and 4
-  - [Exercises 3.3.1](https://r4ds.had.co.nz/data-visualisation.html#exercises-1)
-    - Questions 1 and 6
-  - [Exercises 3.5.1](https://r4ds.had.co.nz/data-visualisation.html#exercises-2)
-    - Questions 1 and 5
-  - [Exercises 3.6.1](https://r4ds.had.co.nz/data-visualisation.html#exercises-3)
-    - Question 5
-  - [Exercises 3.7.1](https://r4ds.had.co.nz/data-visualisation.html#exercises-4)
-    - Question 2
-  - [Exercises 3.9.1](https://r4ds.had.co.nz/data-visualisation.html#exercises-6)
-    - Questions 1 and 4
+- <i class="fas fa-desktop"></i>  Exercises from [R For Data Science: Relational data](https://r4ds.had.co.nz/relational-data.html)
+  - [Exercises 13.3.1](https://r4ds.had.co.nz/relational-data.html#exercises-29)
+    - Questions 1 and 2
+  - [Exercises 13.4.6](https://r4ds.had.co.nz/relational-data.html#exercises-30)
+    - Questions 1-4
+  - [Exercises 13.5.1](https://r4ds.had.co.nz/relational-data.html#exercises-31)
+    - Questions 2, 3, and 5
+  
     
 ## Bonus material
-- <i class="fas fa-external-link-square-alt"></i> [Data Visualization: A practical introduction](https://socviz.co/)
-- <i class="fas fa-external-link-square-alt"></i> [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/)
+- <i class="fas fa-external-link-square-alt"></i> [STAT 545: Character Vectors](https://stat545.com/character-vectors.html)
+- <i class="fas fa-external-link-square-alt"></i> [STAT 545: Factors](https://stat545.com/factors-boss.html)
 
-## Project 1: ggplot2 Recreation Challenge
+## Project 2: Tidy Tuesday
 
 ### Project materials
 
-Project 1 is due on **Feb. 23**, and you will have time to work on it in class on Feb. 16. You may work in groups or individually. Turn in `exercises.Rmd` with your name (and any group members, of applicable).
+Project 2 is due on **Mar. 16**, and you will have time to work on it in class on Mar. 9. You may work in groups or individually. Turn in a zip file with your project, including `exercises.Rmd` with your name (and any group members, of applicable).
 
 In addition to completing the tasks in the assignment, this project must run on my machine. [Use a blank slate](https://rstats.wtf/save-source.html#always-start-r-with-a-blank-slate) and restart your R session regularly, running all of the code to make sure it works correctly. Regularly checking your code with a blank slate will make sure things work as you intend.
 
@@ -62,23 +56,23 @@ You must also use the [Tidyverse code style](https://style.tidyverse.org/). Feel
 
 
 ```r
-au.rcourse::use_module("05-ggplot_recreate_challenge")
+au.rcourse::use_module("07-tidy_tuesday")
 ```
 
-<i class="fas fa-cloud"></i> **Option 2**: Complete the assignment at RStudio Cloud: https://rstudio.cloud/project/2119133
+<i class="fas fa-cloud"></i> **Option 2**: Complete the assignment at RStudio Cloud: https://rstudio.cloud/project/2186159
 
 **Reminder**: You need to download a copy of `exercises.Rmd` to submit.
 
 ### Videos
 
-*Watch this video to prepare for Project 1.*
+*Watch this video to prepare for Project 2.*
 
-Videos for each section of the lecture are [available at this YouTube playlist](https://www.youtube.com/playlist?list=PLYCuG6HXKxjSc06XJQwmCnGmqQrRG7y6l).
+Videos for each section of the lecture are [available at this YouTube playlist](https://www.youtube.com/playlist?list=PLYCuG6HXKxjRV9w79Mnue-OsKRY_EoHn1).
 
-- [01 - ggplot2 recreation challenge](https://www.youtube.com/watch?v=3ICY6HONPmU&list=PLYCuG6HXKxjSc06XJQwmCnGmqQrRG7y6l)
+- [01 - Tidy Tuesday](https://www.youtube.com/watch?v=nRXgYMBCJAY&list=PLYCuG6HXKxjRV9w79Mnue-OsKRY_EoHn1)
 
 You can also watch the playlist (and skip around to different sections) here:
 
 <div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PLYCuG6HXKxjSc06XJQwmCnGmqQrRG7y6l" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PLYCuG6HXKxjRV9w79Mnue-OsKRY_EoHn1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

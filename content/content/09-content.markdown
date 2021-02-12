@@ -15,23 +15,7 @@ draft: true
 ---
 
 
-```{r, echo=FALSE}
-source(here::here("R", "youtube-playlist.R"))
 
-playlist_id <- "PLYCuG6HXKxjRWJTVwIWXY6e0KVfGpxWgp"
-
-video_details <- tibble::tribble(
-  ~youtube_id,   ~title,
-  "tSQdrR3dkHE", "01 - Functional programming with purrr",
-  "XxyOeJEmMKE", "02 - Functional programming with purrr",
-  "IzZzqRrcN5E", "03 - Functional programming with purrr",
-  "D0AXF2RFLwo", "04 - Functional programming with purrr",
-  "uL-3fF9s5yk", "05 - Functional programming with purrr",
-  "6v4S0xK4JwU", "06 - Functional programming with purrr",
-  "FLrc5eWxoho", "07 - Functional programming with purrr",
-  "CIFyOoKy6bA", "08 - Functional programming with purrr"
-)
-```
 
 ## Required content
 
@@ -69,7 +53,8 @@ video_details <- tibble::tribble(
 
 <i class="fas fa-desktop"></i> **Option 1**: Download the material locally
 
-```{r, eval = FALSE}
+
+```r
 au.rcourse::use_module("09-purrr_basics")
 ```
 
@@ -79,7 +64,20 @@ au.rcourse::use_module("09-purrr_basics")
 
 ### Videos
 
-```{r show-youtube-list, echo=FALSE, results="asis"}
-youtube_list(video_details, playlist_id)
-```
+Videos for each section of the lecture are [available at this YouTube playlist](https://www.youtube.com/playlist?list=PLYCuG6HXKxjRWJTVwIWXY6e0KVfGpxWgp).
+
+- [01 - Functional programming with purrr](https://www.youtube.com/watch?v=tSQdrR3dkHE&list=PLYCuG6HXKxjRWJTVwIWXY6e0KVfGpxWgp)
+- [02 - Functional programming with purrr](https://www.youtube.com/watch?v=XxyOeJEmMKE&list=PLYCuG6HXKxjRWJTVwIWXY6e0KVfGpxWgp)
+- [03 - Functional programming with purrr](https://www.youtube.com/watch?v=IzZzqRrcN5E&list=PLYCuG6HXKxjRWJTVwIWXY6e0KVfGpxWgp)
+- [04 - Functional programming with purrr](https://www.youtube.com/watch?v=D0AXF2RFLwo&list=PLYCuG6HXKxjRWJTVwIWXY6e0KVfGpxWgp)
+- [05 - Functional programming with purrr](https://www.youtube.com/watch?v=uL-3fF9s5yk&list=PLYCuG6HXKxjRWJTVwIWXY6e0KVfGpxWgp)
+- [06 - Functional programming with purrr](https://www.youtube.com/watch?v=6v4S0xK4JwU&list=PLYCuG6HXKxjRWJTVwIWXY6e0KVfGpxWgp)
+- [07 - Functional programming with purrr](https://www.youtube.com/watch?v=FLrc5eWxoho&list=PLYCuG6HXKxjRWJTVwIWXY6e0KVfGpxWgp)
+- [08 - Functional programming with purrr](https://www.youtube.com/watch?v=CIFyOoKy6bA&list=PLYCuG6HXKxjRWJTVwIWXY6e0KVfGpxWgp)
+
+You can also watch the playlist (and skip around to different sections) here:
+
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PLYCuG6HXKxjRWJTVwIWXY6e0KVfGpxWgp" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 

@@ -18,11 +18,11 @@ draft: true
 ```{r, echo=FALSE}
 source(here::here("R", "youtube-playlist.R"))
 
-playlist_id <- "PLYCuG6HXKxjSc06XJQwmCnGmqQrRG7y6l"
+playlist_id <- "PLYCuG6HXKxjRV9w79Mnue-OsKRY_EoHn1"
 
 video_details <- tibble::tribble(
   ~youtube_id,   ~title,
-  "3ICY6HONPmU", "01 - Tidy Tuesday"
+  "nRXgYMBCJAY", "01 - Tidy Tuesday"
 )
 ```
 
@@ -30,27 +30,22 @@ video_details <- tibble::tribble(
 
 *Finish this material before class on March 9th*
 
-- <i class="fab fa-youtube"></i> Project 2: Tidy Tuesday ([see below](#project-1-tidy-tuesday)). **Note: this project is not due until Mar. 16**.
+- <i class="fab fa-youtube"></i> Project 2: Tidy Tuesday ([see below](#project-2-tidy-tuesday)). **Note: this project is not due until Mar. 16**.
 - <i class="fas fa-book"></i> [R For Data Science: Strings](https://r4ds.had.co.nz/strings.html)
-- <i class="fas fa-book"></i> [R For Data Science: Factors](HW: https://r4ds.had.co.nz/factors.html)
+- <i class="fas fa-book"></i> [R For Data Science: Factors](https://r4ds.had.co.nz/factors.html)
 
 ## What's due this week
 
-*Turn in on Blackboard before class on February 16th*
+*Turn in on Blackboard before class on March 9th*
 
-- <i class="fas fa-desktop"></i>  Exercises from [R For Data Science: Data visualisation](https://r4ds.had.co.nz/data-visualisation.html)
-  - [Exercises 3.2.4](https://r4ds.had.co.nz/data-visualisation.html#exercises)
-    - Questions 1, 2, and 4
-  - [Exercises 3.3.1](https://r4ds.had.co.nz/data-visualisation.html#exercises-1)
-    - Questions 1 and 6
-  - [Exercises 3.5.1](https://r4ds.had.co.nz/data-visualisation.html#exercises-2)
-    - Questions 1 and 5
-  - [Exercises 3.6.1](https://r4ds.had.co.nz/data-visualisation.html#exercises-3)
-    - Question 5
-  - [Exercises 3.7.1](https://r4ds.had.co.nz/data-visualisation.html#exercises-4)
-    - Question 2
-  - [Exercises 3.9.1](https://r4ds.had.co.nz/data-visualisation.html#exercises-6)
-    - Questions 1 and 4
+- <i class="fas fa-desktop"></i>  Exercises from [R For Data Science: Relational data](https://r4ds.had.co.nz/relational-data.html)
+  - [Exercises 13.3.1](https://r4ds.had.co.nz/relational-data.html#exercises-29)
+    - Questions 1 and 2
+  - [Exercises 13.4.6](https://r4ds.had.co.nz/relational-data.html#exercises-30)
+    - Questions 1-4
+  - [Exercises 13.5.1](https://r4ds.had.co.nz/relational-data.html#exercises-31)
+    - Questions 2, 3, and 5
+  
     
 ## Bonus material
 - <i class="fas fa-external-link-square-alt"></i> [STAT 545: Character Vectors](https://stat545.com/character-vectors.html)
