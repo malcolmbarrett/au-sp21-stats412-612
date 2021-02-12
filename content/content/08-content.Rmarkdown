@@ -1,16 +1,16 @@
 ---
-title: "Week 7"
-linktitle: "Week 7"
+title: "Week 8"
+linktitle: "Week 8"
 date: "2021-03-09"
 start_date: "2021-03-09"
 end_date: "2021-03-15"
 menu:
   content:
     parent: Course content
-    weight: 7
+    weight: 8
 type: docs
 toc: true
-slides: "07-slides"
+slides: "08-slides"
 draft: true
 ---
 
