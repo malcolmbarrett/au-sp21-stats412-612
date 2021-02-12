@@ -22,18 +22,17 @@ playlist_id <- "PLYCuG6HXKxjSc06XJQwmCnGmqQrRG7y6l"
 
 video_details <- tibble::tribble(
   ~youtube_id,   ~title,
-  "3ICY6HONPmU", "01 - ggplot2 recreation challenge"
+  "3ICY6HONPmU", "01 - Tidy Tuesday"
 )
 ```
 
 ## Required content
 
-*Finish this material before class on February 16th*
+*Finish this material before class on March 9th*
 
-- <i class="fab fa-youtube"></i> Project 1: ggplot2 Recreation Challenge ([see below](#project-1-ggplot2-recreation-challenge)). **Note: this project is not due until Feb. 23**.
-- <i class="fas fa-book"></i> [R For Data Science: Workflow, scripts](https://r4ds.had.co.nz/workflow-scripts.html)
-- <i class="fas fa-book"></i> [What They Forgot to Teach You About R: Project-oriented workflow](https://rstats.wtf/project-oriented-workflow.html)
-- <i class="fas fa-book"></i> [Tidyverse Style Guide: pipes](https://style.tidyverse.org/pipes.html)
+- <i class="fab fa-youtube"></i> Project 2: Tidy Tuesday ([see below](#project-1-tidy-tuesday)). **Note: this project is not due until Mar. 16**.
+- <i class="fas fa-book"></i> [R For Data Science: Strings](https://r4ds.had.co.nz/strings.html)
+- <i class="fas fa-book"></i> [R For Data Science: Factors](HW: https://r4ds.had.co.nz/factors.html)
 
 ## What's due this week
 
@@ -54,14 +53,14 @@ video_details <- tibble::tribble(
     - Questions 1 and 4
     
 ## Bonus material
-- <i class="fas fa-external-link-square-alt"></i> [Data Visualization: A practical introduction](https://socviz.co/)
-- <i class="fas fa-external-link-square-alt"></i> [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/)
+- <i class="fas fa-external-link-square-alt"></i> [STAT 545: Character Vectors](https://stat545.com/character-vectors.html)
+- <i class="fas fa-external-link-square-alt"></i> [STAT 545: Factors](https://stat545.com/factors-boss.html)
 
-## Project 1: ggplot2 Recreation Challenge
+## Project 2: Tidy Tuesday
 
 ### Project materials
 
-Project 1 is due on **Feb. 23**, and you will have time to work on it in class on Feb. 16. You may work in groups or individually. Turn in `exercises.Rmd` with your name (and any group members, of applicable).
+Project 2 is due on **Mar. 16**, and you will have time to work on it in class on Mar. 9. You may work in groups or individually. Turn in a zip file with your project, including `exercises.Rmd` with your name (and any group members, of applicable).
 
 In addition to completing the tasks in the assignment, this project must run on my machine. [Use a blank slate](https://rstats.wtf/save-source.html#always-start-r-with-a-blank-slate) and restart your R session regularly, running all of the code to make sure it works correctly. Regularly checking your code with a blank slate will make sure things work as you intend.
 
@@ -70,16 +69,16 @@ You must also use the [Tidyverse code style](https://style.tidyverse.org/). Feel
 <i class="fas fa-desktop"></i> **Option 1**: Download the material locally
 
 ```{r, eval = FALSE}
-au.rcourse::use_module("05-ggplot_recreate_challenge")
+au.rcourse::use_module("07-tidy_tuesday")
 ```
 
-<i class="fas fa-cloud"></i> **Option 2**: Complete the assignment at RStudio Cloud: https://rstudio.cloud/project/2119133
+<i class="fas fa-cloud"></i> **Option 2**: Complete the assignment at RStudio Cloud: https://rstudio.cloud/project/2186159
 
 **Reminder**: You need to download a copy of `exercises.Rmd` to submit.
 
 ### Videos
 
-*Watch this video to prepare for Project 1.*
+*Watch this video to prepare for Project 2.*
 
 ```{r show-youtube-list, echo=FALSE, results="asis"}
 youtube_list(video_details, playlist_id)
