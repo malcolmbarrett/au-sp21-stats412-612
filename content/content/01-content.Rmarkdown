@@ -16,11 +16,11 @@ toc: true
 
 *Finish this material before class on January 26th*
 
-- <i class="fas fa-book"></i> [R For Data Science: Introduction](https://r4ds.had.co.nz/introduction.html)
 - <i class="fas fa-desktop"></i> Install R and RStudio ([see below](#install-the-software-you-need)).
 - <i class="fas fa-cloud"></i> Create an [RStudio Cloud](https://rstudio.cloud/) account. A free account is fine!
+- <i class="fas fa-book"></i> [R For Data Science: Introduction](https://r4ds.had.co.nz/introduction.html)
+- <i class="fab fa-youtube"></i>  [Take a tour of RStudio’s IDE](https://rstudio.com/products/rstudio/?wvideo=520zbd3tij )
 - <i class="fas fa-book"></i> [STATS 545: R Basics](https://stat545.com/r-basics.html)
-- <i class="fas fa-desktop"></i> [RStudio Primers: Programming basics](https://rstudio.cloud/learn/primers/1.2)
 - <i class="fas fa-book"></i> [R For Data Science: Data Import](https://r4ds.had.co.nz/data-import.html)
 
 ## Bonus material
