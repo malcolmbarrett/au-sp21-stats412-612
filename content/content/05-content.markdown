@@ -34,6 +34,7 @@ draft: false
     
 ## Bonus material
 - <i class="fas fa-external-link-square-alt"></i> [Pivoting](https://tidyr.tidyverse.org/articles/pivot.html)
+- <i class="fas fa-external-link-square-alt"></i> [Make a Reprex... Please](https://youtu.be/G5Nm-GpmrLw?t=62)
 
 ## Lecture: Tidying data 
 
