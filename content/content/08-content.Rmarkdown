@@ -44,7 +44,7 @@ video_details <- tibble::tribble(
 
 ## What's due this week
 
-*Turn in on Blackboard before class on March 16th*
+*Turn in on Blackboard before class on March ~~16th~~ 23rd*
 
 - <i class="fas fa-desktop"></i> [Project 2](../07-content/#project-2-tidy-tuesday)
     
