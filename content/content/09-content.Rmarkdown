@@ -48,7 +48,8 @@ video_details <- tibble::tribble(
 
 - <i class="fas fa-desktop"></i> [Project 2](../07-content/#project-2-tidy-tuesday)
 
-### Optional R4DS exercises
+### Optional R4DS exercises 
+*These are completely optional, and you do **not** need to turn them in.*
 - <i class="fas fa-desktop"></i>  Exercises from [R For Data Science: Functions](https://r4ds.had.co.nz/functions.html)
   - [Exercises 19.2.1](https://r4ds.had.co.nz/functions.html#exercises-50)
     - Questions 3, 5, and 6
