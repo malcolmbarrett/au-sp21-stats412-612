@@ -1,0 +1,77 @@
+---
+title: "Week 10"
+linktitle: "Week 10"
+date: "2021-03-23"
+start_date: "2021-03-23"
+end_date: "2021-03-29"
+menu:
+  content:
+    parent: Course content
+    weight: 10
+type: docs
+toc: true
+slides: "10-slides"
+draft: false
+---
+
+
+```{r, echo=FALSE}
+source(here::here("R", "youtube-playlist.R"))
+
+playlist_id <- "PLYCuG6HXKxjT3toW48sfXBIPUNCgaHcVC"
+
+video_details <- tibble::tribble(
+  ~youtube_id,   ~title,
+  "C3NUcdo6XqM", "01 - R Markdown: Whole Game",
+  "4KItEILR5Hw", "02 - R Markdown: Whole Game",
+  "D_qCKLKQxDw", "03 - R Markdown: Whole Game",
+  "m_r03umSBdQ", "04 - R Markdown: Whole Game",
+  "MCWEj8vzT8c", "05 - R Markdown: Whole Game",
+  "sd67JzSLVjs", "06 - R Markdown: Whole Game",
+  "7SpbWY2CXfQ", "07 - R Markdown: Whole Game",
+  "J6t3VJ6Uv1Y", "08 - R Markdown: Whole Game"
+)
+```
+
+## Required content
+
+*Finish this material before class on March 30th*
+
+- <i class="fab fa-youtube"></i> Lecture and exercises: R Markdown: Whole Game ([see below](#lecture-r-markdown-whole-game))
+- <i class="fas fa-book"></i> [R Markdown: Basics](https://bookdown.org/yihui/rmarkdown/basics.html)
+- <i class="fas fa-book"></i> [R Markdown: Documents](https://bookdown.org/yihui/rmarkdown/documents.html)
+
+## What's due this week
+
+*Turn in on Blackboard before class on March 30th*
+- <i class="fas fa-desktop"></i>  Exercises from [R For Data Science: iteration](https://r4ds.had.co.nz/iteration.html)
+  - [Exercises 21.5.3](https://r4ds.had.co.nz/iteration.html#exercises-61)
+    - Questions 1-5
+    
+    
+## Bonus material
+- <i class="fas fa-external-link-square-alt"></i> [Visual R Markdown](https://rstudio.github.io/visual-markdown-editing/#/)
+- <i class="fas fa-external-link-square-alt"></i> [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/)
+
+## Lecture: R Markdown: Whole Game
+
+### Exercises
+
+*Work through these videos and exercises on your own prior to class on **March 30th***
+
+<i class="fas fa-desktop"></i> **Option 1**: Download the material locally
+
+```{r, eval = FALSE}
+au.rcourse::use_module("10-rmarkdown_whole_game")
+```
+
+<i class="fas fa-cloud"></i> **Option 2**: Complete the exercises at RStudio Cloud: https://rstudio.cloud/project/2318298
+
+**Reminder**: You need to save a permanent copy or download the project to keep your exercises
+
+### Videos
+
+```{r show-youtube-list, echo=FALSE, results="asis"}
+youtube_list(video_details, playlist_id)
+```
+

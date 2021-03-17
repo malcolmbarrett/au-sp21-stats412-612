@@ -55,7 +55,7 @@ video_details <- tibble::tribble(
 
 ### Project materials
 
-Project 2 is due on **Mar. 16**, and you will have time to work on it in class on Mar. 9. You may work in groups or individually. Turn in a zip file with your project, including `exercises.Rmd` with your name (and any group members, of applicable).
+Project 2 is due on **Mar. 16**, and you will have time to work on it in class on Mar. 9. You may work in groups or individually. Turn in a zip file with your project, including `exercises.Rmd` with your name (and any group members, if applicable).
 
 In addition to completing the tasks in the assignment, this project must run on my machine. [Use a blank slate](https://rstats.wtf/save-source.html#always-start-r-with-a-blank-slate) and restart your R session regularly, running all of the code to make sure it works correctly. Regularly checking your code with a blank slate will make sure things work as you intend.
 
@@ -69,7 +69,7 @@ au.rcourse::use_module("07-tidy_tuesday")
 
 <i class="fas fa-cloud"></i> **Option 2**: Complete the assignment at RStudio Cloud: https://rstudio.cloud/project/2186159
 
-**Reminder**: You need to download a copy of `exercises.Rmd` to submit.
+**Reminder**: If you are using the cloud, you need to download a copy of `exercises.Rmd` to submit.
 
 ### Videos
 
