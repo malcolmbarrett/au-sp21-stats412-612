@@ -34,7 +34,7 @@ In this project, you will choose a dataset to explore and present your results i
 
 **Your project must**:
 1. Use a targets pipeline
-2. Cache your packages with renv
+2. Cache your packages with renv. You can inititate your renv environment at any point in your project. For your first go with renv, it may be easier to wait until towards the end of your project to init the project. You may also run [targets::tar_renv()](https://docs.ropensci.org/targets/reference/tar_renv.html) before `renv::init()` to include some helper packages.
 3. Generate an R markdown report, which should be a [target in your code pipeline](https://books.ropensci.org/targets/files.html#literate-programming)
 
 **Your R Markdown report must**:
