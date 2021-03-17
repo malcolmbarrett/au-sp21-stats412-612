@@ -18,7 +18,7 @@ draft: false
 
 *Project 4 is due April 27th. We will not have formal class meetings from here on out, but I will host office hours during class time April 13th and April 20th*
 
-- <i class="fab fa-youtube"></i> Project 4: Full-Stack Reproducibility ([see below](#project-4-full-stack-reproducibility)). **Note: this project is not due until April 27th**.
+- <i class="fas fa-book"></i> Project 4: Full-Stack Reproducibility ([see below](#project-4-full-stack-reproducibility)). **Note: this project is not due until April 27th**.
     
 ## Bonus material
 - <i class="fas fa-external-link-square-alt"></i> [What They Forgot to Teach You about R: Maintaining R and RStudio](https://rstats.wtf/maintaining-r.html)
