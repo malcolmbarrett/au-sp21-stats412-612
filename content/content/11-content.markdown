@@ -34,6 +34,7 @@ draft: false
 ## Bonus material
 - <i class="fas fa-external-link-square-alt"></i> [R for Data Science: R Markdown](https://r4ds.had.co.nz/r-markdown.html)
 - <i class="fas fa-external-link-square-alt"></i> [R Markdown for Scientists](https://rmd4sci.njtierney.com/)
+- <i class="fas fa-external-link-square-alt"></i> [Fundamentals of Data Visualization: Telling a Story and Making a Point](https://clauswilke.com/dataviz/telling-a-story.html)
 
 ## Lecture: R Markdown: The Basics
 
