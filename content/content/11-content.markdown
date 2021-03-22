@@ -39,7 +39,7 @@ draft: false
 
 ### Exercises
 
-*Work through these videos and exercises on your own prior to class on **April th***
+*Work through these videos and exercises on your own prior to class on **April 6th***
 
 <i class="fas fa-desktop"></i> **Option 1**: Download the material locally
 
