@@ -37,7 +37,7 @@ draft: false
 - <i class="fas fa-desktop"></i>  Exercises from [R For Data Science: Functions](https://r4ds.had.co.nz/functions.html)
   - [Exercises 19.2.1](https://r4ds.had.co.nz/functions.html#exercises-50)
     - Questions 3, 5, and 6
-  - [Exercises 19.2.1](https://r4ds.had.co.nz/functions.html#exercises-51)
+  - [Exercises 19.3.1](https://r4ds.had.co.nz/functions.html#exercises-51)
     - Question 1
   - [Exercises 19.4.4](https://r4ds.had.co.nz/functions.html#exercises-52)
     - Questions 1 and 2
